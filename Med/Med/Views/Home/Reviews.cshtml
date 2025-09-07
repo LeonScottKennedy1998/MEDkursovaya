@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Med.Models.Review>
+@using Med.Models
+
+<div class="reviews-section">
+    <h2 class="text-center mb-4">Отзывы о товаре</h2>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="reviews-container">
+            @foreach (var review in Model)
+            {
+                <div class="review-item mb-3 p-3 rounded shadow-sm">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <strong>@(review.User?.NameUser ?? "Пользователь")</strong>
+                        <small class="text-muted">
+                            @{
+                                var utcDate = DateTime.SpecifyKind(review.CreatedAt, DateTimeKind.Utc);
+                                var moscowTime = TimeZoneInfo.ConvertTimeBySystemTimeZoneId(utcDate, "Russian Standard Time");
+                                var displayText = moscowTime.ToString("dd.MM.yyyy HH:mm");
+
+                                if (review.UpdatedAt.HasValue)
+                                {
+                                    var updatedMoscow = TimeZoneInfo.ConvertTimeBySystemTimeZoneId(
+                                    DateTime.SpecifyKind(review.UpdatedAt.Value, DateTimeKind.Utc),
+                                    "Russian Standard Time");
+                                    displayText += $" (изменено {updatedMoscow:dd.MM.yyyy HH:mm})";
+                                }
+                            }
+                            @displayText
+                        </small>
+
+
+                    </div>
+                    <div class="rating mb-1">
+                        @for (int i = 0; i < review.Rating; i++)
+                        {
+                            <span>⭐</span>
+                        }
+                    </div>
+                    <p>@review.ReviewText</p>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p class="text-muted text-center">Отзывов пока что нет.</p>
+    }
+
+    @if (ViewBag.UserReview != null)
+    {
+        <p class="text-muted mt-3 text-center">
+            Вы уже оставили отзыв, но можете его отредактировать.
+            <button id="edit-review-btn" class="btn btn-sm btn-primary">Редактировать</button>
+        </p>
+
+        <div id="edit-review-form" class="mt-3" style="display:none;">
+            <partial name="_ReviewForm" model="ViewBag.UserReview" />
+        </div>
+    }
+    else if (ViewBag.CanReview == true)
+    {
+        <div class="review-form-container mt-4 p-3 rounded shadow-sm">
+            <partial name="_ReviewForm" model="new Review { ProductID = ViewBag.ProductID }" />
+        </div>
+    }
+    else
+    {
+        <p class="text-muted mt-3 text-center">Вы можете оставить отзыв только после покупки этого товара.</p>
+    }
+
+    <script>
+        document.getElementById('edit-review-btn')?.addEventListener('click', function () {
+            const form = document.getElementById('edit-review-form');
+            form.style.display = form.style.display === 'none' ? 'block' : 'none';
+        });
+    </script>
+</div>

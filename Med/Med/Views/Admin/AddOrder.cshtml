@@ -1,0 +1,40 @@
+﻿@model Med.Models.Order
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Добавить заказ - МЕДЯТИНА</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <h1>Добавить заказ</h1>
+        <form asp-action="AddOrder" method="post">
+            <div class="form-group">
+                <label>Пользователь, оформивший заказ</label>
+                <select asp-for="UserID" class="form-control">
+                    @foreach (var user in ViewBag.Users)
+                    {
+                        <option value="@user.UserID">@user.NameUser</option>
+                    }
+                </select>
+                <span asp-validation-for="UserID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Дата оформления заказа</label>
+                <input asp-for="OrderDate" class="form-control" type="date" />
+                <span asp-validation-for="OrderDate" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Добавить</button>
+        </form>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

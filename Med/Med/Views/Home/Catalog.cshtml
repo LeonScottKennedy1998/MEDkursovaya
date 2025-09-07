@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Med.Models.Product>
+
+<div class="catalog-section">
+    <h1>
+        Каталог меда</h1>
+
+    <form asp-action="Catalog" method="get" class="filter-form">
+        <div class="form-group">
+            <input type="text" name="searchQuery" class="form-control" placeholder="Поиск..." />
+        </div>
+        <div class="form-group">
+            <select name="categoryId" class="form-control">
+                <option value="">Все категории</option>
+                @foreach (var category in ViewBag.Categories)
+                {
+                    <option value="@category.CategoryID">@category.CategoryName</option>
+                }
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Фильтр</button>
+    </form>
+
+    <div class="catalog-grid">
+        @foreach (var product in Model)
+        {
+            <div class="catalog-item">
+                <img src="@product.ImageUrl" class="card-img-top" alt="@product.NameProduct" />
+                <div class="card-body">
+                    <h5 class="card-title">@product.NameProduct</h5>
+                    <p class="card-text">@product.DescriptionProduct</p>
+                    <p class="price">Цена: @product.Price руб.</p>
+                    <p class="stock">Количество на складе: @product.Stock</p>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                            <input type="hidden" name="productId" value="@product.ProductID" />
+                            <div class="form-group">
+                                <label for="quantity">Количество:</label>
+                                <input type="number" name="quantity" class="form-control" min="1" value="1" />
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-2">Добавить в корзину</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <a asp-controller="AccountAdminManager" asp-action="SignIn" class="btn btn-primary">Войти для добавления в корзину</a>
+                    }
+
+                    <a class="btn btn-secondary mt-2"
+                       asp-action="Reviews"
+                       asp-controller="Home"
+                       asp-route-productId="@product.ProductID">
+                        Отзывы
+                    </a>
+
+                    @await Component.InvokeAsync("AverageRating", new { productId = product.ProductID })
+                </div>
+            </div>
+        }
+    </div>
+</div>
+

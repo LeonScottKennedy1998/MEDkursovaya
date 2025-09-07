@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /signin
+Disallow: /signout
+Sitemap: http://www.honey-site.somee.com/sitemap.xml

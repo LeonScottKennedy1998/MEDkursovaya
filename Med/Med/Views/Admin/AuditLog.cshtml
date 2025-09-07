@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Med.Models.AuditLog>
+
+<h2>Журнал аудита</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Таблица</th>
+            <th>ID записи</th>
+            <th>Операция</th>
+            <th>Старое значение</th>
+            <th>Новое значение</th>
+            <th>Изменил</th>
+            <th>Дата</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var log in Model)
+        {
+            <tr>
+                <td>@log.TableName</td>
+                <td>@log.RecordID</td>
+                <td>@log.Operation</td>
+                <td>@log.OldValue</td>
+                <td>@log.NewValue</td>
+                <td>@log.ChangedBy</td>
+                <td>@log.ChangedAt</td>
+            </tr>
+        }
+    </tbody>
+</table>

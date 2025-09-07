@@ -1,0 +1,627 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\middleware\\jwtvalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\middleware\\jwtvalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\medapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\medapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\adminapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\adminapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\admintables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\admintables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\managertables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\managertables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\cartitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\cartitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\cartview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\cartview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medapi\\medapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED84601-8D93-4F4D-B997-4B9FB12F6E4B}|MedAPI\\MedAPI.csproj|solutionrelative:medapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwFgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:52:56.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Program.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Program.cs",
+              "RelativeToolTip": "MedAPI\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:27:32.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAywEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:31:43.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CatalogController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\CatalogController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\CatalogController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\CatalogController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\CatalogController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:14:49.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:32:53.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MedAPI.http",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\MedAPI.http",
+              "RelativeDocumentMoniker": "MedAPI\\MedAPI.http",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\MedAPI.http",
+              "RelativeToolTip": "MedAPI\\MedAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-03T18:51:09.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:46:01.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\Product.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\Product.cs",
+              "RelativeToolTip": "MedAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:30:34.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MediaController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\MediaController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\MediaController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\MediaController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\MediaController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T14:22:07.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtValidationMiddleware.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Middleware\\JwtValidationMiddleware.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Middleware\\JwtValidationMiddleware.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Middleware\\JwtValidationMiddleware.cs",
+              "RelativeToolTip": "MedAPI\\Middleware\\JwtValidationMiddleware.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T16:32:46.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "MedAPI\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA9wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:30:32.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\AnalyticsController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:12:03.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminApiController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\AdminApiController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\AdminApiController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\AdminApiController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\AdminApiController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwC4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:20:13.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderDetailDto.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\OrderDetailDto.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\OrderDetailDto.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\OrderDetailDto.cs",
+              "RelativeToolTip": "MedAPI\\Models\\OrderDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:49:10.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\Order.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\Order.cs",
+              "RelativeToolTip": "MedAPI\\Models\\Order.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:30:33.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\ReviewsController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:46:37.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\Review.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\Review.cs",
+              "RelativeToolTip": "MedAPI\\Models\\Review.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:30:35.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "MedAPI\\appsettings.json",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\appsettings.json",
+              "RelativeToolTip": "MedAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T18:37:31.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\OrderDto.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\OrderDto.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\OrderDto.cs",
+              "RelativeToolTip": "MedAPI\\Models\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:48:55.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\RolesController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwEMAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:48:04.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MedAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MedAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T20:28:23.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\CartController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAywBsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:00:28.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\OrderDetailsController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\OrderDetailsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:33:47.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\AppDbContext.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "MedAPI\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:30:09.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminTables.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\AdminTables.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\AdminTables.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\AdminTables.cs",
+              "RelativeToolTip": "MedAPI\\Models\\AdminTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:44:39.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\AuditLog.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\AuditLog.cs",
+              "RelativeToolTip": "MedAPI\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:12:33.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\Role.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\Role.cs",
+              "RelativeToolTip": "MedAPI\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:30:36.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\User.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\User.cs",
+              "RelativeToolTip": "MedAPI\\Models\\User.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA9wAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:30:36.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "MedAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:48:43.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\Category.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\Category.cs",
+              "RelativeToolTip": "MedAPI\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:30:29.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ManagerTables.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\ManagerTables.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\ManagerTables.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\ManagerTables.cs",
+              "RelativeToolTip": "MedAPI\\Models\\ManagerTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:44:53.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CartItemRequest.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\CartItemRequest.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\CartItemRequest.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\CartItemRequest.cs",
+              "RelativeToolTip": "MedAPI\\Models\\CartItemRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:53:51.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CartView.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\CartView.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\CartView.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\CartView.cs",
+              "RelativeToolTip": "MedAPI\\Models\\CartView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:44:43.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\CartItem.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\CartItem.cs",
+              "RelativeToolTip": "MedAPI\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:45:01.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\RegisterModel.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "MedAPI\\Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:45:20.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\LoginModel.cs",
+              "RelativeToolTip": "MedAPI\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:45:11.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MedAPI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MedAPI\\MedAPI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MedAPI\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:45:08.211Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

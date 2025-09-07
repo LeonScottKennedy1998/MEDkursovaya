@@ -1,0 +1,574 @@
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\MedAPI.exe
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\MedAPI.deps.json
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\MedAPI.runtimeconfig.json
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\MedAPI.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\MedAPI.pdb
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Humanizer.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.AssemblyInfo.cs
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets\msbuild.MedAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MedAPI.props
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MedAPI.props
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MedAPI.props
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\scopedcss\bundle\MedAPI.styles.css
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.csproj.Up2Date
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\refint\MedAPI.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.pdb
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.genruntimeconfig.cache
+C:\Users\user\source\repos\MedAPI\MedAPI\obj\Debug\net8.0\ref\MedAPI.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Build.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.Common.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.Configuration.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.Frameworks.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.LibraryModel.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.Packaging.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.ProjectModel.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.Protocol.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\af\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ar\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\az\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\bg\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\cs\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\da\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\de\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\el\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\es\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\fa\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\fr\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\he\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\hr\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\hu\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\hy\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\id\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\is\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\it\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ja\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ku\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\lv\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\mt\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\nb\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\nl\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pl\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pt\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ro\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ru\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\sk\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\sl\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\sr\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\sv\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\tr\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\uk\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\vi\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\source\repos\MedAPI\MedAPI\bin\Debug\net8.0\MedAPI.staticwebassets.runtime.json
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\appsettings.json
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\MedAPI.staticwebassets.runtime.json
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\MedAPI.exe
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\MedAPI.deps.json
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\MedAPI.runtimeconfig.json
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\MedAPI.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\MedAPI.pdb
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Humanizer.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Build.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.Common.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.ClientModel.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.CodeDom.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Memory.Data.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Text.Json.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.csproj.AssemblyReference.cache
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.AssemblyInfoInputs.cache
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.AssemblyInfo.cs
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.csproj.CoreCompileInputs.cache
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets\msbuild.MedAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MedAPI.props
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MedAPI.props
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MedAPI.props
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\scopedcss\bundle\MedAPI.styles.css
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.csproj.Up2Date
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\refint\MedAPI.dll
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.pdb
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\MedAPI.genruntimeconfig.cache
+D:\ProjectMPT\Курсач 4 курс\MedAPI\MedAPI\obj\Debug\net8.0\ref\MedAPI.dll

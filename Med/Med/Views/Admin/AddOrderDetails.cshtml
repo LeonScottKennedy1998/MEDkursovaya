@@ -1,0 +1,75 @@
+﻿@model Med.Models.OrderDetail
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Добавить детали заказа - МЕДЯТИНА</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <h1>Добавить детали заказа</h1>
+        <form asp-action="AddOrderDetails" method="post">
+            <div class="form-group">
+                <label>Дата оформления заказа</label>
+                <select asp-for="OrderID" class="form-control">
+                    @foreach (var order in ViewBag.Orders)
+                    {
+                        <option value="@order.OrderID">@order.OrderDate.ToShortDateString()</option>
+                    }
+                </select>
+                <span asp-validation-for="OrderID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Продукт</label>
+                <select asp-for="ProductID" class="form-control" id="product-select">
+                    @foreach (var product in ViewBag.Products)
+                    {
+                        <option value="@product.ProductID" data-price="@product.Price">@product.NameProduct</option>
+                    }
+                </select>
+                <span asp-validation-for="ProductID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Количество в заказе</label>
+                <input asp-for="Quantity" class="form-control" type="number" min="1" step="1" id="quantity-input" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Итоговая цена</label>
+                <input type="text" class="form-control" id="total-price" readonly />
+                <input asp-for="TotalPrice" type="hidden" id="total-price-hidden" />
+            </div>
+            <button type="submit" class="btn btn-primary">Добавить</button>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const productSelect = document.getElementById('product-select');
+            const quantityInput = document.getElementById('quantity-input');
+            const totalPriceInput = document.getElementById('total-price');
+            const totalPriceHidden = document.getElementById('total-price-hidden');
+
+            const calculateTotalPrice = () => {
+                const selectedOption = productSelect.options[productSelect.selectedIndex];
+                const productPrice = parseFloat(selectedOption.getAttribute('data-price')) || 0;
+                const quantity = parseInt(quantityInput.value) || 0;
+                const totalPrice = productPrice * quantity;
+
+                totalPriceInput.value = totalPrice.toFixed(2);
+                totalPriceHidden.value = totalPrice.toFixed(2);
+                totalPriceInput.value = totalPrice.toLocaleString('ru-RU', { minimumFractionDigits: 2 });
+                totalPriceHidden.value = totalPrice.toFixed(2).replace('.', ',');
+            };
+
+            productSelect.addEventListener('change', calculateTotalPrice);
+            quantityInput.addEventListener('input', calculateTotalPrice);
+        });
+    </script>
+</body>
+</html>

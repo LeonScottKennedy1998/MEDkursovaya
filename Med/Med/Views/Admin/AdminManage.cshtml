@@ -1,0 +1,201 @@
+﻿@model Med.Models.AdminTables
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Управление данными - МЕДЯТИНА</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <h1>Управление данными</h1>
+        <a asp-action="AuditLog" asp-controller="Admin" class="btn btn-info mb-2">Журнал аудита</a>
+
+        <h2>Пользователи</h2>
+        <a asp-controller="Admin" asp-action="AddUser" class="btn btn-success mb-2">Добавить пользователя</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Почта</th>
+                    <th>Логин</th>
+                     <th>Пароль</th>
+                    <th>Адрес</th>
+                    <th>Роль</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model.Users)
+                {
+                    <tr>
+                        <td>@user.NameUser</td>
+                        <td>@user.Email</td>
+                        <td>@user.Username</td>
+                        <td>@user.PasswordUser</td>
+                        <td>@user.AddressUser</td>
+                        <td>@user.RoleID</td>
+                        <td>
+                            <a asp-controller="Admin" asp-action="EditUser" asp-route-id="@user.UserID" class="btn btn-primary">Редактировать</a>
+                            <a asp-controller="Admin" asp-action="DeleteUser" asp-route-id="@user.UserID" class="btn btn-danger">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <h2>Продукты</h2>
+        <a asp-controller="Admin" asp-action="AddProduct" class="btn btn-success mb-2">Добавить продукт</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Описание</th>
+                    <th>Цена</th>
+                    <th>Категория</th>
+                    <th>Количество</th>
+                    <th>Изображение</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model.Products)
+                {
+                    <tr>
+                        <td>@product.NameProduct</td>
+                        <td>@product.DescriptionProduct</td>
+                        <td>@product.Price</td>
+                        <td>@product.Category.CategoryName</td>
+                        <td>@product.Stock</td>
+                        <td>@product.ImageUrl</td>
+                        <td>
+                            <a asp-controller="Admin" asp-action="EditProduct" asp-route-id="@product.ProductID" class="btn btn-primary">Редактировать</a>
+                            <a asp-controller="Admin" asp-action="DeleteProduct" asp-route-id="@product.ProductID" class="btn btn-danger">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <h2>Заказы</h2>
+        <a asp-controller="Admin" asp-action="AddOrder" class="btn btn-success mb-2">Добавить заказ</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Пользователь</th>
+                    <th>Дата</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model.Orders)
+                {
+                    <tr>
+                        <td>@order.User.NameUser</td>
+                        <td>
+                            @TimeZoneInfo.ConvertTimeBySystemTimeZoneId(
+                                     DateTime.SpecifyKind(order.OrderDate, DateTimeKind.Utc),
+                                     "Russian Standard Time"
+                                     ).ToString("dd.MM.yyyy HH:mm")
+                        </td>
+                        <td>
+                            <a asp-controller="Admin" asp-action="EditOrder" asp-route-id="@order.OrderID" class="btn btn-primary">Редактировать</a>
+                            <a asp-controller="Admin" asp-action="DeleteOrder" asp-route-id="@order.OrderID" class="btn btn-danger">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <h2>Детали заказов</h2>
+        <a asp-controller="Admin" asp-action="AddOrderDetails" class="btn btn-success mb-2">Добавить детали заказа</a>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Заказ</th>
+                    <th>Продукт</th>
+                    <th>Количество</th>
+                    <th>Итоговая сумма</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var orderdetail in Model.OrderDetails)
+                {
+                    <tr>
+                        <td>
+                            @TimeZoneInfo.ConvertTimeBySystemTimeZoneId(
+                                     DateTime.SpecifyKind(orderdetail.Order.OrderDate, DateTimeKind.Utc),
+                                     "Russian Standard Time"
+                                     ).ToString("dd.MM.yyyy HH:mm")
+                        </td>
+                        <td>@orderdetail.Product.NameProduct</td>
+                         <td>@orderdetail.Quantity</td>
+                        <td>@orderdetail.TotalPrice</td>
+
+                        <td>
+                            <a asp-controller="Admin" asp-action="EditOrderDetails" asp-route-id="@orderdetail.OrderDetailID" class="btn btn-primary">Редактировать</a>
+                            <a asp-controller="Admin" asp-action="DeleteOrderDetails" asp-route-id="@orderdetail.OrderDetailID" class="btn btn-danger" method="post">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <h2>Категории</h2>
+        <a asp-controller="Admin" asp-action="AddCategory" class="btn btn-success mb-2">Добавить категорию</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var category in Model.Categories)
+                {
+                    <tr>
+                        <td>@category.CategoryName</td>
+                        <td>
+                            <a asp-controller="Admin" asp-action="EditCategory" asp-route-id="@category.CategoryID" class="btn btn-primary">Редактировать</a>
+                            <a asp-controller="Admin" asp-action="DeleteCategory" asp-route-id="@category.CategoryID" class="btn btn-danger">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <h2>Роли</h2>
+        <a asp-controller="Admin" asp-action="AddRole" class="btn btn-success mb-2">Добавить роль</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var role in Model.Roles)
+                {
+                    <tr>
+                        <td>@role.RoleName</td>
+                        <td>
+                            <a asp-controller="Admin" asp-action="EditRole" asp-route-id="@role.RoleID" class="btn btn-primary">Редактировать</a>
+                            <a asp-controller="Admin" asp-action="DeleteRole" asp-route-id="@role.RoleID" class="btn btn-danger">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

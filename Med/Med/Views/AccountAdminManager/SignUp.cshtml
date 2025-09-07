@@ -1,0 +1,69 @@
+﻿@model Med.Models.RegisterModel
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация - МЕДЯТИНА</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <h2 class="text-center mb-4">Регистрация</h2>
+                        <form asp-action="SignUp" method="post">
+                            <div asp-validation-summary="All" class="text-danger text-center mb-3"></div>
+                            <div class="form-group">
+                                <label for="NameUser">Имя</label>
+                                <input asp-for="NameUser" class="form-control" id="NameUser" placeholder="Введите ваше имя">
+                                <span asp-validation-for="NameUser" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="Email">Email</label>
+                                <input asp-for="Email" class="form-control" id="Email" placeholder="Введите ваш Email">
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="Username">Имя пользователя</label>
+                                <input asp-for="Username" class="form-control" id="Username" placeholder="Введите имя пользователя">
+                                <span asp-validation-for="Username" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="PasswordUser">Пароль</label>
+                                <input asp-for="PasswordUser" type="password" class="form-control" id="PasswordUser" placeholder="Введите пароль">
+                                <span asp-validation-for="PasswordUser" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="AddressUser">Адрес</label>
+                                <input asp-for="AddressUser" class="form-control" id="AddressUser" placeholder="Введите ваш адрес">
+                                <span asp-validation-for="AddressUser" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="RoleID">Роль</label>
+                                <select asp-for="RoleID" class="form-control" id="RoleID">
+                                    <option value="2">Покупатель</option>
+                                    <option value="3">Менеджер</option>
+                                    <option value="1">Админ</option>
+                                </select>
+                                <span asp-validation-for="RoleID" class="text-danger"></span>
+                            </div>
+                            <button type="submit" class="mt-2 btn btn-primary btn-block">Зарегистрироваться</button>
+                        </form>
+                        <p class="text-center mt-3">Уже пчёлка? <a asp-action="SignIn">Войдите</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

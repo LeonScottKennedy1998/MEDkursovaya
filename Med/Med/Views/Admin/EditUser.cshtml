@@ -1,0 +1,66 @@
+﻿@model Med.Models.User
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Редактировать пользователя - МЕДЯТИНА</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <h1>Редактировать пользователя</h1>
+        <form asp-action="EditUser" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <input type="hidden" asp-for="UserID" /> 
+
+            <div class="form-group">
+                <label>Имя пользователя</label>
+                <input asp-for="NameUser" class="form-control" />
+                <span asp-validation-for="NameUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Почта</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Логин</label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Пароль</label>
+                <input asp-for="PasswordUser" class="form-control" />
+                <span asp-validation-for="PasswordUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Адрес</label>
+                <input asp-for="AddressUser" class="form-control" />
+                <span asp-validation-for="AddressUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Роль</label>
+                <select asp-for="RoleID" class="form-control">
+                    @foreach (var role in ViewBag.Roles)
+                    {
+                        <option value="@role.RoleID" selected="@(Model.RoleID == role.RoleID ? "selected" : null)">
+                            @role.RoleName
+                        </option>
+                    }
+
+                </select>
+                <span asp-validation-for="RoleID" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+        </form>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

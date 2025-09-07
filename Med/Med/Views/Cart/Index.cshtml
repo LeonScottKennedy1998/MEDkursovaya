@@ -1,0 +1,53 @@
+﻿@model List<Med.Models.CartItem>
+
+<div class="cart-section">
+    <h2>Корзина</h2>
+
+    @if (Model.Count == 0)
+    {
+        <p>Ваша корзина пуста.</p>
+    }
+    else
+    {
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Изображение</th>
+                    <th>Название</th>
+                    <th>Цена</th>
+                    <th>Количество</th>
+                    <th>Сумма</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><img src="@item.ImageUrl" alt="@item.NameProduct" /></td>
+                        <td>@item.NameProduct</td>
+                        <td>@item.Price ₽</td>
+                        <td>@item.Quantity</td>
+                        <td>@(item.Price * item.Quantity) ₽</td>
+                        <td>
+                            <form asp-action="RemoveFromCart" method="post">
+                                <input type="hidden" name="productId" value="@item.ProductID" />
+                                <button type="submit" class="btn btn-danger">Удалить</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <h4 class="cart-total">Итого: <strong>@Model.Sum(item => item.Total) ₽</strong></h4>
+
+        <div class="cart-actions">
+            <form asp-action="ClearCart" method="post">
+                <button type="submit" class="btn btn-warning">Очистить корзину</button>
+            </form>
+            <form asp-controller="Order" asp-action="CreateOrder" method="post">
+                <button type="submit" class="btn btn-success">Оформить заказ</button>
+            </form>
+        </div>
+    }
+</div>

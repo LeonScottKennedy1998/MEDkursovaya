@@ -1,0 +1,14 @@
+﻿@model double
+
+<div class="average-rating">
+    Средний рейтинг:
+    @for (int i = 0; i < Math.Floor(Model); i++)
+    {
+        <span>⭐</span>
+    }
+    @if (Model % 1 != 0)
+    {
+        <span>⭐</span>
+    }
+    <span>(@Model.ToString("0.0"))</span>
+</div>

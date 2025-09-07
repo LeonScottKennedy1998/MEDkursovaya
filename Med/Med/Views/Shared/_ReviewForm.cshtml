@@ -1,0 +1,33 @@
+﻿@model Med.Models.Review
+
+@{
+    bool isEdit = Model.ReviewID > 0; 
+    var actionName = isEdit ? "EditReview" : "AddReview";
+    var buttonText = isEdit ? "Редактировать" : "Оставить отзыв";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <form asp-action="@actionName" asp-controller="Review" method="post">
+        <input type="hidden" asp-for="ReviewID" />    
+        <input type="hidden" asp-for="ProductID" />
+
+        <label>Рейтинг:</label>
+        <select asp-for="Rating" class="form-control">
+            <option value="5">⭐⭐⭐⭐⭐</option>
+            <option value="4">⭐⭐⭐⭐</option>
+            <option value="3">⭐⭐⭐</option>
+            <option value="2">⭐⭐</option>
+            <option value="1">⭐</option>
+        </select>
+
+        <label>Отзыв:</label>
+        <textarea asp-for="ReviewText" class="form-control"></textarea>
+
+        <button type="submit" class="btn btn-success mt-2">@buttonText</button>
+    </form>
+}
+else
+{
+    <p><a asp-controller="AccountAdminManager" asp-action="SignIn">Войдите</a>, чтобы оставить отзыв.</p>
+}

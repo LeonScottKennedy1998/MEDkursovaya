@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Med.Models.Order>
+
+<div class="orders-section">
+    <h2>Мои заказы</h2>
+
+    @if (Model == null || !Model.Any())
+    {
+        <p>У вас нет заказов.</p>
+    }
+    else
+    {
+        <table class="orders-table">
+            <thead>
+                <tr>
+                    <th>Дата заказа</th>
+                    <th>Детали заказа</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model)
+                {
+                    <tr>
+                        @{
+                            var utcOrderDate = DateTime.SpecifyKind(order.OrderDate, DateTimeKind.Utc);
+                            var moscowTime = TimeZoneInfo.ConvertTimeBySystemTimeZoneId(utcOrderDate, "Russian Standard Time");
+                        }
+                        <td>@moscowTime.ToString("dd.MM.yyyy HH:mm")</td>
+                        <td>
+                            <div class="order-details">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Название</th>
+                                            <th>Количество</th>
+                                            <th>Цена</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if (order.OrderDetails != null && order.OrderDetails.Any())
+                                        {
+                                            @foreach (var detail in order.OrderDetails)
+                                            {
+                                                <tr>
+                                                    <td>@detail.ProductName</td>
+                                                    <td>@detail.Quantity</td>
+                                                    <td>@detail.TotalPrice ₽</td>
+                                                </tr>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <tr>
+                                                <td colspan="3">Нет деталей заказа</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

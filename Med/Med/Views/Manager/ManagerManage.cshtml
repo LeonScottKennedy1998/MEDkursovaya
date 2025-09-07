@@ -1,0 +1,64 @@
+﻿@model Med.Models.ManagerTables
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Управление данными - МЕДЯТИНА</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <h1>Управление данными</h1>
+        <h2>Продукты</h2>
+        <a asp-controller="Manager" asp-action="AddProduct" class="btn btn-success mb-2">Добавить продукт</a>
+        <a asp-action="SalesAnalytics" asp-controller="Manager" class="btn btn-info mb-2">Аналитика продаж</a>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Описание</th>
+                    <th>Цена</th>
+                    <th>Категория</th>
+                    <th>Количество</th>
+                    <th>Изображение</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Products != null && Model.Products.Any())
+                {
+                    @foreach (var product in Model.Products)
+                    {
+                        <tr>
+                            <td>@product.NameProduct</td>
+                            <td>@product.DescriptionProduct</td>
+                            <td>@product.Price.ToString("C")</td>
+                            <td>@(product.Category?.CategoryName ?? "Без категории")</td>
+                            <td>@product.Stock</td>
+                            <td>@product.ImageUrl</td>
+                            <td>
+                                <a asp-controller="Manager" asp-action="EditProduct" asp-route-id="@product.ProductID" class="btn btn-primary">Редактировать</a>
+                                <a asp-controller="Manager" asp-action="DeleteProduct" asp-route-id="@product.ProductID" class="btn btn-danger">Удалить</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="7" class="text-center">Нет доступных продуктов</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

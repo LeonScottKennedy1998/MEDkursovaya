@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\chvetoch.png",
+      "PackagePath": "staticwebassets\\media\\catalog\\chvetoch.png"
+    },
+    {
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\chvetoch1.jpeg",
+      "PackagePath": "staticwebassets\\media\\catalog\\chvetoch1.jpeg"
+    },
+    {
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\grechishnyy.png",
+      "PackagePath": "staticwebassets\\media\\catalog\\grechishnyy.png"
+    },
+    {
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\grechishnyy1.jpg",
+      "PackagePath": "staticwebassets\\media\\catalog\\grechishnyy1.jpg"
+    },
+    {
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\lipa.jpeg",
+      "PackagePath": "staticwebassets\\media\\catalog\\lipa.jpeg"
+    },
+    {
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\lipa1.jpg",
+      "PackagePath": "staticwebassets\\media\\catalog\\lipa1.jpg"
+    },
+    {
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\orehi.jpeg",
+      "PackagePath": "staticwebassets\\media\\catalog\\orehi.jpeg"
+    },
+    {
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\pic.jpg",
+      "PackagePath": "staticwebassets\\media\\catalog\\pic.jpg"
+    },
+    {
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\propolis.jpeg",
+      "PackagePath": "staticwebassets\\media\\catalog\\propolis.jpeg"
+    },
+    {
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\propolis1.jpg",
+      "PackagePath": "staticwebassets\\media\\catalog\\propolis1.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MedAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MedAPI.props",
+      "PackagePath": "build\\MedAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MedAPI.props",
+      "PackagePath": "buildMultiTargeting\\MedAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MedAPI.props",
+      "PackagePath": "buildTransitive\\MedAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

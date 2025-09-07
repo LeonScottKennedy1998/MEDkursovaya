@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Аналитика продаж";
+}
+
+<h2>Аналитика продаж</h2>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="row">
+    <div class="col-md-6">
+        <h4>Общее количество продаж по датам</h4>
+        <canvas id="salesByDateChart"></canvas>
+    </div>
+
+    <div class="col-md-6">
+        <h4>Распределение продаж по товарам</h4>
+        <canvas id="productSalesChart"></canvas>
+    </div>
+</div>
+
+<script>
+    var salesByDateChartCtx = document.getElementById('salesByDateChart').getContext('2d');
+    new Chart(salesByDateChartCtx, {
+        type: 'line',
+        data: {
+            labels: @Html.Raw(ViewBag.SalesDates), 
+            datasets: [{
+                label: 'Общее количество продаж (₽)',
+                data: @Html.Raw(ViewBag.SalesValues), 
+                backgroundColor: 'rgba(75, 192, 192, 0.4)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 2,
+                fill: true,
+                tension: 0.4
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Дата'
+                    }
+                },
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Сумма продаж (₽)'
+                    }
+                }
+            }
+        }
+    });
+
+    var productSalesChartCtx = document.getElementById('productSalesChart').getContext('2d');
+    new Chart(productSalesChartCtx, {
+        type: 'pie',
+        data: {
+            labels: @Html.Raw(ViewBag.ProductNames), 
+            datasets: [{
+                label: 'Продажи по товарам (₽)',
+                data: @Html.Raw(ViewBag.ProductSales), 
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.6)',
+                    'rgba(54, 162, 235, 0.6)',
+                    'rgba(255, 206, 86, 0.6)',
+                    'rgba(75, 192, 192, 0.6)',
+                    'rgba(153, 102, 255, 0.6)',
+                    'rgba(255, 159, 64, 0.6)'
+                ]
+            }]
+        }
+    });
+</script>
+<div>
+    <form asp-action="ExportToPDF" method="get">
+        <button type="submit" class="btn btn-primary">Экспорт в PDF</button>
+    </form>
+</div>
