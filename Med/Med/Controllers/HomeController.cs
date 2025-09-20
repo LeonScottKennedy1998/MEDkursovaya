@@ -1,4 +1,5 @@
-using Med.Models;
+ï»¿using Med.Models;
+using Med.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
@@ -14,11 +15,12 @@ namespace Med.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private AppDbContext _appDbContext;
-        private readonly string _apiBaseUrl = "http://localhost:5072";
-        public HomeController(ILogger<HomeController> logger, AppDbContext appDbContext)
+        private readonly IApiService _apiService;
+        public HomeController(ILogger<HomeController> logger, AppDbContext appDbContext,IApiService apiService)
         {
             _logger = logger;
             _appDbContext = appDbContext;
+            _apiService = apiService;
         }
 
         public async Task<IActionResult> Index()
@@ -28,17 +30,17 @@ namespace Med.Controllers
                 var name = HttpContext.Session.GetString("Username");
                 var roleName = HttpContext.Session.GetString("UserRole");
 
-                using var http = new HttpClient();
+                var client = _apiService.CreateClient();
                 try
                 {
-                    var roleResponse = await http.GetFromJsonAsync<List<Role>>($"{_apiBaseUrl}/api/roles/roles");
+                    var roleResponse = await client.GetFromJsonAsync<List<Role>>($"{_apiService.BaseUrl}/api/roles/roles");
 
                     var role = roleResponse.FirstOrDefault(r => r.RoleName == roleName);
                     ViewBag.Role = role; 
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError(ex, "Îøèáêà ïðè ïîëó÷åíèè ðîëåé ÷åðåç API");
+                    _logger.LogError(ex, "ÐžÑˆÐ¸Ð±ÐºÐ° Ð¿Ñ€Ð¸ Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ð¸Ð¸ Ñ€Ð¾Ð»ÐµÐ¹ Ñ‡ÐµÑ€ÐµÐ· API");
                     ViewBag.Role = null;
                 }
             }
@@ -61,15 +63,9 @@ namespace Med.Controllers
         public async Task<IActionResult> Catalog(string? searchQuery, int? categoryId)
         {
             var handler = new HttpClientHandler { UseCookies = true };
-            var client = new HttpClient(handler);
-            var token = Request.Cookies["jwt"];
-            if (!string.IsNullOrEmpty(token))
-            {
-                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            }
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
 
-            var url = $"{_apiBaseUrl}/api/catalog/catalog";
-
+            var url = $"{_apiService.BaseUrl}/api/catalog/catalog";
             var queryParams = new List<string>();
             if (!string.IsNullOrEmpty(searchQuery))
                 queryParams.Add($"searchQuery={Uri.EscapeDataString(searchQuery)}");
@@ -79,8 +75,17 @@ namespace Med.Controllers
             if (queryParams.Count > 0)
                 url += "?" + string.Join("&", queryParams);
 
+            var response = await client.GetAsync(url);
 
-            var productsResponse = await client.GetFromJsonAsync<List<Product>>(url);
+            if (!response.IsSuccessStatusCode)
+            {
+                _logger.LogWarning("ÐžÑˆÐ¸Ð±ÐºÐ° Ð¿Ñ€Ð¸ Ð·Ð°Ð¿Ñ€Ð¾ÑÐµ Ðº API ÐºÐ°Ñ‚Ð°Ð»Ð¾Ð³Ð°: {StatusCode}", response.StatusCode);
+                var fallbackProducts = await _appDbContext.Products.Include(p => p.Category).ToListAsync();
+                ViewBag.Categories = await _appDbContext.Categories.ToListAsync();
+                return View(fallbackProducts);
+            }
+
+            var productsResponse = await response.Content.ReadFromJsonAsync<List<Product>>();
 
             ViewBag.Categories = await _appDbContext.Categories.ToListAsync();
             return View(productsResponse);
@@ -89,8 +94,9 @@ namespace Med.Controllers
         [Authorize]
         public async Task<IActionResult> Reviews(int productId)
         {
-            using var http = new HttpClient();
-            var reviews = await http.GetFromJsonAsync<List<Review>>($"{_apiBaseUrl}/api/Reviews/product/{productId}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+
+            var reviews = await client.GetFromJsonAsync<List<Review>>($"{_apiService.BaseUrl}/api/Reviews/product/{productId}");
 
             var product = await _appDbContext.Products
                 .FirstOrDefaultAsync(p => p.ProductID == productId);
@@ -110,12 +116,12 @@ namespace Med.Controllers
             if (userId.HasValue)
             {
                 canReview = await _appDbContext.Orders
-    .Where(o => o.UserID == userId.Value)
-    .Include(o => o.OrderDetails)
-    .AnyAsync(o => o.OrderDetails.Any(od => od.ProductID == productId));
+                .Where(o => o.UserID == userId.Value)
+                .Include(o => o.OrderDetails)
+                .AnyAsync(o => o.OrderDetails.Any(od => od.ProductID == productId));
 
                 _logger.LogInformation(
-            "Ïðîâåðêà ïîêóïêè: userId={UserId}, productId={ProductId}, canReview={CanReview}",
+            "ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° Ð¿Ð¾ÐºÑƒÐ¿ÐºÐ¸: userId={UserId}, productId={ProductId}, canReview={CanReview}",
             userId, productId, canReview
         );
 

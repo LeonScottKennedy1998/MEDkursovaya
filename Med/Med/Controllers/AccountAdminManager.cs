@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System.Net.Http.Headers;
 using System.Net.Http;
+using Med.Services;
 
 namespace Med.Controllers
 {
@@ -14,23 +15,17 @@ namespace Med.Controllers
     {
         private readonly ILogger<AccountAdminManager> _logger;
         private readonly AppDbContext _appDbContext;
-        private readonly string _apiBaseUrl = "http://localhost:5072";
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IApiService _apiService;
 
-        public AccountAdminManager(ILogger<AccountAdminManager> logger, AppDbContext appDbContext,  IHttpClientFactory httpClientFactory)
+        public AccountAdminManager(ILogger<AccountAdminManager> logger, AppDbContext appDbContext,  IHttpClientFactory httpClientFactory, IApiService apiService)
         {
             _httpClientFactory = httpClientFactory;
             _logger = logger;
             _appDbContext = appDbContext;
+            _apiService= apiService;
         }
 
-        private async Task<HttpClient> GetAuthenticatedClient()
-        {
-            var token = Request.Cookies["jwt"];
-            var client = _httpClientFactory.CreateClient();
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            return client;
-        }
         public IActionResult Index()
         {
             return View();
@@ -51,12 +46,23 @@ namespace Med.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            var client = _httpClientFactory.CreateClient(); 
-            var response = await client.PostAsJsonAsync($"{_apiBaseUrl}/api/auth/login", model);
+            var client = _apiService.CreateClient();
+            var response = await client.PostAsJsonAsync($"{_apiService.BaseUrl}/api/auth/login", model);
 
             if (!response.IsSuccessStatusCode)
             {
-                ModelState.AddModelError("", "Ошибка входа");
+                try
+                {
+                    var errorObj = await response.Content.ReadFromJsonAsync<Dictionary<string, string>>();
+                    if (errorObj != null && errorObj.ContainsKey("message"))
+                        ModelState.AddModelError("", errorObj["message"]);
+                    else
+                        ModelState.AddModelError("", "Ошибка входа");
+                }
+                catch
+                {
+                    ModelState.AddModelError("", "Ошибка входа");
+                }
                 return View(model);
             }
 
@@ -72,9 +78,9 @@ namespace Med.Controllers
                 });
 
                 await Authenticate(
-                        result.User.UserID,   
-                        result.User.Username, 
-                        result.User.NameUser, 
+                        result.User.UserID,
+                        result.User.Username,
+                        result.User.NameUser,
                         result.User.Role
                     );
 
@@ -107,7 +113,6 @@ namespace Med.Controllers
             }
         }
 
-
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
@@ -116,7 +121,6 @@ namespace Med.Controllers
             Response.Cookies.Delete("jwt");
             return RedirectToAction("SignIn");
         }
-
 
         public IActionResult SignUp()
         {
@@ -129,9 +133,12 @@ namespace Med.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            var client = await GetAuthenticatedClient();
+            model.RoleID = 2;
+
+
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
             var response = await client.PostAsJsonAsync(
-                $"{_apiBaseUrl}/api/auth/register", model);
+                $"{_apiService.BaseUrl}/api/auth/register", model);
 
             if (response.IsSuccessStatusCode)
             {
@@ -141,9 +148,9 @@ namespace Med.Controllers
             else
             {
                 var errorObj = await response.Content.ReadFromJsonAsync<Dictionary<string, string>>();
-                if (errorObj != null && errorObj.ContainsKey("Message"))
+                if (errorObj != null && errorObj.ContainsKey("message"))
                 {
-                    ModelState.AddModelError("", errorObj["Message"]);
+                    ModelState.AddModelError("", errorObj["message"]);
                 }
                 else
                 {
@@ -152,6 +159,79 @@ namespace Med.Controllers
                 return View(model);
             }
         
+        }
+
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var client = _apiService.CreateClient();
+            var response = await client.PostAsJsonAsync($"{_apiService.BaseUrl}/api/auth/forgot-password", model);
+
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["SuccessMessage"] = "Ссылка для сброса пароля отправлена на ваш email!";
+                return RedirectToAction("SignIn");
+            }
+            else
+            {
+                var errorObj = await response.Content.ReadFromJsonAsync<Dictionary<string, string>>();
+                if (errorObj != null && errorObj.ContainsKey("message"))
+                {
+                    ModelState.AddModelError("", errorObj["message"]);
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Ошибка при отправки ссылки для сброса пароля. Попробуйте позже.");
+                }
+                return View(model);
+            }
+        }
+
+        public IActionResult ResetPassword(string email, string token)
+        {
+            return View(new ResetPasswordModel { Email = email, Token = token });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var client = _apiService.CreateClient();
+            var response = await client.PostAsJsonAsync($"{_apiService.BaseUrl}/api/auth/reset-password", model);
+
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["SuccessMessage"] = "Пароль успешно сброшен!";
+                return RedirectToAction("SignIn");
+            }
+            else
+            {
+                var errorObj = await response.Content.ReadFromJsonAsync<Dictionary<string, string>>();
+                if (errorObj != null && errorObj.ContainsKey("message"))
+                {
+                    ModelState.AddModelError("", errorObj["message"]);
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Не удалось сбросить пароль. Попробуйте позже.");
+                }
+                return View(model);
+            }
+
+        }
+
+
     }
-    }
+
+
 }

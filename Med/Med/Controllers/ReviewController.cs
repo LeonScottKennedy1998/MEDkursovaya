@@ -4,34 +4,29 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Net.Http.Headers;
 using System.Net;
-using System.Security.Claims; 
+using System.Security.Claims;
+using Med.Services;
 
 public class ReviewController : Controller
 {
     private readonly AppDbContext _context;
     private readonly ILogger<ReviewController> _logger;
     private readonly IHttpClientFactory _httpClientFactory;
-    private readonly string _apiBaseUrl = "http://localhost:5072";
-    public ReviewController(AppDbContext context, ILogger<ReviewController> logger, IHttpClientFactory httpClientFactory)
+    private readonly IApiService _apiService;
+    public ReviewController(AppDbContext context, ILogger<ReviewController> logger, IHttpClientFactory httpClientFactory, IApiService apiService)
     {
         _context = context;
         _logger = logger;
         _httpClientFactory = httpClientFactory;
+        _apiService = apiService;
     }
 
-    private async Task<HttpClient> GetAuthenticatedClient()
-    {
-        var token = Request.Cookies["jwt"];
-        var client = _httpClientFactory.CreateClient();
-        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-        return client;
-    }
     [HttpPost]
     public async Task<IActionResult> AddReview(Review review)
     {
 
-            var client = await GetAuthenticatedClient();
-            var response = await client.PostAsJsonAsync($"{_apiBaseUrl}/api/Reviews", review);
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PostAsJsonAsync($"{_apiService}/api/Reviews", review);
 
             if (response.IsSuccessStatusCode)
             {
@@ -65,10 +60,9 @@ public class ReviewController : Controller
     [HttpPost]
     public async Task<IActionResult> EditReview(Review review)
     {
-        var client = await GetAuthenticatedClient();
+        var client = await _apiService.CreateAuthenticatedClient(HttpContext);
 
-        // PUT-запрос на API
-        var response = await client.PutAsJsonAsync($"{_apiBaseUrl}/api/Reviews/{review.ReviewID}", review);
+        var response = await client.PutAsJsonAsync($"{_apiService.BaseUrl}/api/Reviews/{review.ReviewID}", review);
 
         if (response.IsSuccessStatusCode)
         {
@@ -84,7 +78,7 @@ public class ReviewController : Controller
             }
         }
 
-        return View("EditReview", review); // или вернём ту же страницу с формой
+        return View("EditReview", review);
     }
 
 

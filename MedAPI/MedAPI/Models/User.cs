@@ -25,6 +25,7 @@ namespace MedAPI.Models
 
         public int RoleID { get; set; }
         public virtual List<Order> Orders { get; set; } = new List<Order>();
-
+        public string? ResetToken { get; set; }
+        public DateTime? ResetTokenExpiry { get; set; }
     }
 }

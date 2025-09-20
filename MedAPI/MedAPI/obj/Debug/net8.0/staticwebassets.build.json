@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g/gtafJiM9g3QvrZeDMEN+6WREmjWrm4X49K9W+9l8k=",
+  "Hash": "xPm+K6bkHc0w2TTCEfjfqIsoyyXZSQ5G+/7S7b998po=",
   "Source": "MedAPI",
   "BasePath": "_content/MedAPI",
   "Mode": "Default",
@@ -10,17 +10,36 @@
     {
       "Name": "MedAPI\\wwwroot",
       "Source": "MedAPI",
-      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
       "BasePath": "_content/MedAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\chvetoch.png",
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\2025-09-05_12-36-43.png",
       "SourceId": "MedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
+      "BasePath": "_content/MedAPI",
+      "RelativePath": "media/catalog/2025-09-05_12-36-43.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\catalog\\2025-09-05_12-36-43.png"
+    },
+    {
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\chvetoch.png",
+      "SourceId": "MedAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
       "BasePath": "_content/MedAPI",
       "RelativePath": "media/catalog/chvetoch.png",
       "AssetKind": "All",
@@ -36,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\media\\catalog\\chvetoch.png"
     },
     {
-      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\chvetoch1.jpeg",
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\chvetoch1.jpeg",
       "SourceId": "MedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
       "BasePath": "_content/MedAPI",
       "RelativePath": "media/catalog/chvetoch1.jpeg",
       "AssetKind": "All",
@@ -55,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\media\\catalog\\chvetoch1.jpeg"
     },
     {
-      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\grechishnyy.png",
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\grechishnyy.png",
       "SourceId": "MedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
       "BasePath": "_content/MedAPI",
       "RelativePath": "media/catalog/grechishnyy.png",
       "AssetKind": "All",
@@ -74,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\media\\catalog\\grechishnyy.png"
     },
     {
-      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\grechishnyy1.jpg",
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\grechishnyy1.jpg",
       "SourceId": "MedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
       "BasePath": "_content/MedAPI",
       "RelativePath": "media/catalog/grechishnyy1.jpg",
       "AssetKind": "All",
@@ -93,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\media\\catalog\\grechishnyy1.jpg"
     },
     {
-      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\lipa.jpeg",
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\lipa.jpeg",
       "SourceId": "MedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
       "BasePath": "_content/MedAPI",
       "RelativePath": "media/catalog/lipa.jpeg",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\media\\catalog\\lipa.jpeg"
     },
     {
-      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\lipa1.jpg",
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\lipa1.jpg",
       "SourceId": "MedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
       "BasePath": "_content/MedAPI",
       "RelativePath": "media/catalog/lipa1.jpg",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\media\\catalog\\lipa1.jpg"
     },
     {
-      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\orehi.jpeg",
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\orehi.jpeg",
       "SourceId": "MedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
       "BasePath": "_content/MedAPI",
       "RelativePath": "media/catalog/orehi.jpeg",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\media\\catalog\\orehi.jpeg"
     },
     {
-      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\pic.jpg",
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\pic.jpg",
       "SourceId": "MedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
       "BasePath": "_content/MedAPI",
       "RelativePath": "media/catalog/pic.jpg",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\media\\catalog\\pic.jpg"
     },
     {
-      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\propolis.jpeg",
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\propolis.jpeg",
       "SourceId": "MedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
       "BasePath": "_content/MedAPI",
       "RelativePath": "media/catalog/propolis.jpeg",
       "AssetKind": "All",
@@ -188,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\media\\catalog\\propolis.jpeg"
     },
     {
-      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\propolis1.jpg",
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\propolis1.jpg",
       "SourceId": "MedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
       "BasePath": "_content/MedAPI",
       "RelativePath": "media/catalog/propolis1.jpg",
       "AssetKind": "All",
@@ -205,6 +224,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\catalog\\propolis1.jpg"
+    },
+    {
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\практ.PNG",
+      "SourceId": "MedAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
+      "BasePath": "_content/MedAPI",
+      "RelativePath": "media/catalog/практ.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\catalog\\практ.PNG"
+    },
+    {
+      "Identity": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\media\\catalog\\ПрецедентыКурсач4к (5).png",
+      "SourceId": "MedAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\wwwroot\\",
+      "BasePath": "_content/MedAPI",
+      "RelativePath": "media/catalog/ПрецедентыКурсач4к (5).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\catalog\\ПрецедентыКурсач4к (5).png"
     }
   ]
 }

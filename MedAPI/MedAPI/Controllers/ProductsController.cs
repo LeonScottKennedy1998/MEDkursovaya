@@ -21,11 +21,18 @@ namespace MedAPI.Controllers
 
         [HttpGet("products")]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts() =>
-            Ok(await _appDbContext.Products.Include(p => p.Category).ToListAsync());
+            Ok(await _appDbContext.Products
+                .Include(p => p.Category)
+                .Include(p => p.Supplier)
+                .ToListAsync());
 
         [HttpPost("products")]
         public async Task<ActionResult<Product>> CreateProduct([FromBody] Product product)
         {
+            var supplierExists = await _appDbContext.Suppliers.AnyAsync(s => s.SupplierID == product.SupplierID);
+            if (!supplierExists)
+                return BadRequest("Указанный поставщик не найден");
+
             _appDbContext.Products.Add(product);
             await _appDbContext.SaveChangesAsync();
             return CreatedAtAction(nameof(GetProduct), new { id = product.ProductID }, product);
@@ -34,7 +41,11 @@ namespace MedAPI.Controllers
         [HttpGet("products/{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var product = await _appDbContext.Products.FindAsync(id);
+            var product = await _appDbContext.Products
+                .Include(p => p.Category)
+                .Include(p => p.Supplier)
+                .FirstOrDefaultAsync(p => p.ProductID == id);
+
             return product == null ? NotFound() : Ok(product);
         }
 
@@ -42,6 +53,12 @@ namespace MedAPI.Controllers
         public async Task<IActionResult> UpdateProduct(int id, [FromBody] Product product)
         {
             if (id != product.ProductID) return BadRequest();
+
+            var supplierExists = await _appDbContext.Suppliers.AnyAsync(s => s.SupplierID == product.SupplierID);
+            if (!supplierExists)
+                return BadRequest("Указанный поставщик не найден");
+
+
             _appDbContext.Entry(product).State = EntityState.Modified;
             await _appDbContext.SaveChangesAsync();
             return NoContent();

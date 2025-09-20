@@ -16,7 +16,7 @@
             var path = context.Request.Path.Value?.ToLower();
 
             // Пропускаем login и register
-            if (path!.Contains("/api/auth/login") || path.Contains("/api/auth/register"))
+            if (path!.Contains("/api/auth/login") || path.Contains("/api/auth/register") || path.Contains("/api/auth/forgot-password") || path.Contains("/api/auth/reset-password"))
             {
                 await _next(context);
                 return;

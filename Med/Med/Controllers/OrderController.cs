@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 using System.Net.Http.Headers;
 using System.Text;
+using Med.Services;
 
 namespace Med.Controllers
 {
@@ -18,22 +19,15 @@ namespace Med.Controllers
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<OrderController> _logger;
-        private readonly string _apiBaseUrl = "http://localhost:5072";
+        private readonly IApiService _apiService;
 
         public OrderController(
             IHttpClientFactory httpClientFactory,
-            ILogger<OrderController> logger)
+            ILogger<OrderController> logger, IApiService apiService)
         {
             _httpClientFactory = httpClientFactory;
             _logger = logger;
-        }
-
-        private async Task<HttpClient> GetAuthenticatedClient()
-        {
-            var token = Request.Cookies["jwt"];
-            var client = _httpClientFactory.CreateClient();
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            return client;
+            _apiService = apiService;
         }
 
         public async Task<IActionResult> Index()
@@ -41,8 +35,8 @@ namespace Med.Controllers
 
             try
             {
-                var client = await GetAuthenticatedClient();
-                var response = await client.GetAsync($"{_apiBaseUrl}/api/orders");
+                var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+                var response = await client.GetAsync($"{_apiService.BaseUrl}/api/orders");
 
                 if (!response.IsSuccessStatusCode)
                     return HandleError(response);
@@ -81,14 +75,14 @@ namespace Med.Controllers
                     Quantity = item.Quantity
                 }).ToList();
 
-                var client = await GetAuthenticatedClient();
+                var client = await _apiService.CreateAuthenticatedClient(HttpContext);
                 var content = new StringContent(
                     JsonSerializer.Serialize(requestData),
                     Encoding.UTF8,
                     "application/json"
                 );
 
-                var response = await client.PostAsync($"{_apiBaseUrl}/api/orders", content);
+                var response = await client.PostAsync($"{_apiService.BaseUrl}/api/orders", content);
 
                 if (!response.IsSuccessStatusCode)
                 {

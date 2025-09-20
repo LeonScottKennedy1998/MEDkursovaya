@@ -8,6 +8,7 @@ namespace MedAPI.Models
         [Required(ErrorMessage = "Категория продукта обязательна.")]
 
         public string CategoryName { get; set; }
+
         public ICollection<Product>? Products { get; set; }
     }
 }

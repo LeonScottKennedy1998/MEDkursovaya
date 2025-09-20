@@ -12,7 +12,7 @@ namespace Med.Models
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Review> Reviews { get; set; }
 
-
+        public DbSet<Supplier> Suppliers { get; set; }
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
             Database.EnsureCreated();

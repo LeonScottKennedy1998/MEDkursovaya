@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Controllers\AccountAdminManager.cs~RF2ad407f.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\robots.txt" />
     <None Include="wwwroot\sitemap.xml" />
   </ItemGroup>

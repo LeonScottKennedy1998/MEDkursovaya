@@ -1,323 +1,323 @@
 {
   "Files": [
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Med.bundle.scp.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Med.bundle.scp.css",
       "PackagePath": "staticwebassets\\Med.bundle.scp.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\css\\site.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\favicon.ico",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\fonts\\Montserrat-VariableFont_wght.ttf",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\fonts\\Montserrat-VariableFont_wght.ttf",
       "PackagePath": "staticwebassets\\fonts\\Montserrat-VariableFont_wght.ttf"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\js\\site.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\catalog\\chvetoch.png",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\catalog\\chvetoch.png",
       "PackagePath": "staticwebassets\\media\\catalog\\chvetoch.png"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\catalog\\chvetoch1.jpeg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\catalog\\chvetoch1.jpeg",
       "PackagePath": "staticwebassets\\media\\catalog\\chvetoch1.jpeg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\catalog\\grechishnyy.png",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\catalog\\grechishnyy.png",
       "PackagePath": "staticwebassets\\media\\catalog\\grechishnyy.png"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\catalog\\grechishnyy1.jpg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\catalog\\grechishnyy1.jpg",
       "PackagePath": "staticwebassets\\media\\catalog\\grechishnyy1.jpg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\catalog\\lipa.jpeg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\catalog\\lipa.jpeg",
       "PackagePath": "staticwebassets\\media\\catalog\\lipa.jpeg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\catalog\\lipa1.jpg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\catalog\\lipa1.jpg",
       "PackagePath": "staticwebassets\\media\\catalog\\lipa1.jpg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\catalog\\orehi.jpeg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\catalog\\orehi.jpeg",
       "PackagePath": "staticwebassets\\media\\catalog\\orehi.jpeg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\catalog\\propolis.jpeg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\catalog\\propolis.jpeg",
       "PackagePath": "staticwebassets\\media\\catalog\\propolis.jpeg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\catalog\\propolis1.jpg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\catalog\\propolis1.jpg",
       "PackagePath": "staticwebassets\\media\\catalog\\propolis1.jpg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\main\\assortiment.jpg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\main\\assortiment.jpg",
       "PackagePath": "staticwebassets\\media\\main\\assortiment.jpg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\main\\banki.jpeg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\main\\banki.jpeg",
       "PackagePath": "staticwebassets\\media\\main\\banki.jpeg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\main\\natural.jpg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\main\\natural.jpg",
       "PackagePath": "staticwebassets\\media\\main\\natural.jpg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\main\\quality.jpg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\main\\quality.jpg",
       "PackagePath": "staticwebassets\\media\\main\\quality.jpg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\main\\slide1.jpg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\main\\slide1.jpg",
       "PackagePath": "staticwebassets\\media\\main\\slide1.jpg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\main\\slide2.jpg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\main\\slide2.jpg",
       "PackagePath": "staticwebassets\\media\\main\\slide2.jpg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\media\\main\\slide3.jpg",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\media\\main\\slide3.jpg",
       "PackagePath": "staticwebassets\\media\\main\\slide3.jpg"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\robots.txt",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\robots.txt",
       "PackagePath": "staticwebassets\\robots.txt"
     },
     {
-      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\Med\\Med\\wwwroot\\sitemap.xml",
+      "Id": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\Med\\Med\\wwwroot\\sitemap.xml",
       "PackagePath": "staticwebassets\\sitemap.xml"
     },
     {

@@ -4,6 +4,13 @@
     <h1>
         Каталог меда</h1>
 
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
     <form asp-action="Catalog" method="get" class="filter-form">
         <div class="form-group">
             <input type="text" name="searchQuery" class="form-control" placeholder="Поиск..." />
@@ -29,7 +36,7 @@
                     <h5 class="card-title">@product.NameProduct</h5>
                     <p class="card-text">@product.DescriptionProduct</p>
                     <p class="price">Цена: @product.Price руб.</p>
-                    <p class="stock">Количество на складе: @product.Stock</p>
+                    <p class="stock">Доступно: @product.Stock</p>
 
                     @if (User.Identity.IsAuthenticated)
                     {

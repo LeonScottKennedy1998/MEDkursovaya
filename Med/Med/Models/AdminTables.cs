@@ -12,6 +12,7 @@ namespace Med.Models
 
         public List<OrderDetail> OrderDetails { get; set; }
 
+        public List<Supplier> Suppliers { get; set; }
 
 
     }

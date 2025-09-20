@@ -13,6 +13,7 @@ namespace MedAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ReviewsController : Controller
     {
         private readonly AppDbContext _context;
@@ -36,7 +37,6 @@ namespace MedAPI.Controllers
 
             _logger.LogInformation("User {UserId} пытается добавить отзыв на продукт {ProductId}", userId, review.ProductID);
 
-            // Получаем все заказы пользователя
             var userOrders = await _context.Orders
                 .Where(o => o.UserID == userId)
                 .Include(o => o.OrderDetails)

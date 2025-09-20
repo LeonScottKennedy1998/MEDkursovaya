@@ -7,7 +7,6 @@ namespace MedAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
     public class CatalogController : Controller
     {
         private readonly AppDbContext _context;

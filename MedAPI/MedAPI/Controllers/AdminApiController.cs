@@ -30,9 +30,10 @@ namespace MedAPI.Controllers
             var data = new AdminTables
             {
                 Users = await _appDbContext.Users.ToListAsync(),
-                Products = await _appDbContext.Products.Include(p => p.Category).ToListAsync(),
+                Products = await _appDbContext.Products.Include(p => p.Category).Include(p => p.Supplier).ToListAsync(),
                 Orders = await _appDbContext.Orders.Include(o => o.User).Include(o => o.OrderDetails).ToListAsync(),
                 Categories = await _appDbContext.Categories.Include(c => c.Products).ToListAsync(),
+                Suppliers = await _appDbContext.Suppliers.Include(c => c.Products).ToListAsync(),
                 Roles = await _appDbContext.Roles.Include(r => r.Users).ToListAsync(),
                 OrderDetails = await _appDbContext.OrderDetails.Include(od => od.Product).Include(od => od.Order).ToListAsync()
             };

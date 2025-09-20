@@ -1,293 +1,329 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\",
+  "WorkspaceRootPath": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\addorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\addorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\addorderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\addorderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\datesales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\datesales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\controllers\\accountadminmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\accountadminmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\uploadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\uploadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\home\\catalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\adminmanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\adminmanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\admintables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\admintables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\editorderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\editorderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\editsupplier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\editsupplier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\addsupplier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\addsupplier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\addorderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\addorderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\controllers\\accountadminmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\accountadminmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\viewcomponents\\averageratingviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\viewcomponents\\averageratingviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\accountadminmanager\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\accountadminmanager\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\accountadminmanager\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\accountadminmanager\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\datesales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\datesales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\managertables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\managertables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\salesanalyticsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\salesanalyticsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\uploadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\uploadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\accountadminmanager\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\accountadminmanager\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\accountadminmanager\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\accountadminmanager\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\home\\catalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\home\\catalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\home\\reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\home\\reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\addorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\addorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\MedTechPlusDB\\Controllers\\ClientController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\manager\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\manager\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\manager\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\accountadminmanager\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\accountadminmanager\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\accountadminmanager\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\accountadminmanager\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\manager\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\manager\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\manager\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\editorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\editorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\editorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\auditlog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\admin\\auditlog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\auditlog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\home\\reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\home\\reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\manager\\salesanalytics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\manager\\salesanalytics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\manager\\salesanalytics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\shared\\_reviewform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\shared\\_reviewform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\shared\\_reviewform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\adminmanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\adminmanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\editorderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\editorderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\viewcomponents\\averageratingviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\viewcomponents\\averageratingviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\shared\\components\\averagerating\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\shared\\components\\averagerating\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\shared\\components\\averagerating\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\admintables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\admintables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\manager\\managermanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\manager\\managermanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\manager\\managermanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\salesanalyticsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\salesanalyticsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\cartview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\cartview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\cartview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\productsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\models\\productsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\productsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\managertables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\managertables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\shared\\displaytemplates\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\shared\\displaytemplates\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\shared\\displaytemplates\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\editcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\med.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\med.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\med.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\medkursovaya\\med\\med\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|d:\\projectmpt\\\u043A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\med\\med\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C201A4-3642-4A76-AEF2-C1D13EC45A8F}|Med\\Med.csproj|solutionrelative:med\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -297,7 +333,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -313,409 +349,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\AdminController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Med\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Med\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAYwMMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwvzwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T12:06:06.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\Product.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\Product.cs",
-              "RelativeToolTip": "Med\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T08:00:16.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DateSales.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\DateSales.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\DateSales.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\DateSales.cs",
-              "RelativeToolTip": "Med\\Models\\DateSales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Title": "AdminTables.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\AdminTables.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\AdminTables.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\AdminTables.cs",
+              "RelativeToolTip": "Med\\Models\\AdminTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T16:11:14.01Z",
+              "WhenOpened": "2024-12-11T16:41:30.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddProduct.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AddProduct.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddProduct.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AddProduct.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\AddProduct.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AdminManage.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AdminManage.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AdminManage.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AdminManage.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\AdminManage.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwCcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T17:44:36.975Z",
+              "WhenOpened": "2024-12-11T17:06:44.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AddOrderDetails.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AddOrderDetails.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddOrderDetails.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AddOrderDetails.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\AddOrderDetails.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwB0AAAAtAAAAAAAAAA==",
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditUser.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\EditUser.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAYwEQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T11:09:34.2Z",
+              "WhenOpened": "2024-12-12T07:27:12.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddOrder.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AddOrder.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddOrder.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AddOrder.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\AddOrder.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAcwBsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T17:44:47.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Med\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Med\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAQwHoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T13:39:01.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ManagerController.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\ManagerController.cs",
-              "RelativeDocumentMoniker": "Med\\Controllers\\ManagerController.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\ManagerController.cs",
-              "RelativeToolTip": "Med\\Controllers\\ManagerController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAA1wG0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T07:15:17.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Med\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Med\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAADwv1IAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:11:12.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AccountAdminManager.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\AccountAdminManager.cs",
-              "RelativeDocumentMoniker": "Med\\Controllers\\AccountAdminManager.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\AccountAdminManager.cs",
-              "RelativeToolTip": "Med\\Controllers\\AccountAdminManager.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAewBoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T16:09:34.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UploadResponse.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\UploadResponse.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\UploadResponse.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\UploadResponse.cs",
-              "RelativeToolTip": "Med\\Models\\UploadResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T15:49:40.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Med\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Med\\Controllers\\CartController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAACEAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T13:36:24.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Program.cs",
-              "RelativeDocumentMoniker": "Med\\Program.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Program.cs",
-              "RelativeToolTip": "Med\\Program.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAYwFoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T08:14:07.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Catalog.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Home\\Catalog.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Home\\Catalog.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Home\\Catalog.cshtml",
-              "RelativeToolTip": "Med\\Views\\Home\\Catalog.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwCoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T18:21:56.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EditProduct.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Manager\\EditProduct.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Manager\\EditProduct.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Manager\\EditProduct.cshtml",
-              "RelativeToolTip": "Med\\Views\\Manager\\EditProduct.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T08:09:54.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EditProduct.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\EditProduct.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\EditProduct.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\EditProduct.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\EditProduct.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwA8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T07:26:20.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SignIn.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\AccountAdminManager\\SignIn.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\AccountAdminManager\\SignIn.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\AccountAdminManager\\SignIn.cshtml",
-              "RelativeToolTip": "Med\\Views\\AccountAdminManager\\SignIn.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T08:12:17.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\AccountAdminManager\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\AccountAdminManager\\SignUp.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\AccountAdminManager\\SignUp.cshtml",
-              "RelativeToolTip": "Med\\Views\\AccountAdminManager\\SignUp.cshtml",
-              "ViewState": "AgIAACYAAAAAAAAAAAAcwEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T08:12:37.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AddProduct.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Manager\\AddProduct.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Manager\\AddProduct.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Manager\\AddProduct.cshtml",
-              "RelativeToolTip": "Med\\Views\\Manager\\AddProduct.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T08:06:22.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EditOrder.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\EditOrder.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\EditOrder.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\EditOrder.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\EditOrder.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T07:26:33.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AddUser.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AddUser.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddUser.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AddUser.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\AddUser.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T10:28:41.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AddRole.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AddRole.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddRole.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AddRole.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\AddRole.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T17:45:10.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AuditLog.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AuditLog.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AuditLog.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AuditLog.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\AuditLog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-07T11:10:46.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Reviews.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Home\\Reviews.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Home\\Reviews.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Home\\Reviews.cshtml",
-              "RelativeToolTip": "Med\\Views\\Home\\Reviews.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-07T11:56:10.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Med\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T06:45:42.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "SalesAnalytics.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Manager\\SalesAnalytics.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Manager\\SalesAnalytics.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Manager\\SalesAnalytics.cshtml",
-              "RelativeToolTip": "Med\\Views\\Manager\\SalesAnalytics.cshtml",
-              "ViewState": "AgIAADIAAAAAAAAAAAAYwFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T11:42:20.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Order\\Index.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Order\\Index.cshtml",
-              "RelativeToolTip": "Med\\Views\\Order\\Index.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T22:07:43.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "_ReviewForm.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\_ReviewForm.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Shared\\_ReviewForm.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\_ReviewForm.cshtml",
-              "RelativeToolTip": "Med\\Views\\Shared\\_ReviewForm.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T05:49:47.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AdminManage.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AdminManage.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AdminManage.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AdminManage.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\AdminManage.cshtml",
-              "ViewState": "AgIAALMAAAAAAAAAAAAYwLwAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T17:06:44.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ReviewController.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "Med\\Controllers\\ReviewController.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Controllers\\ReviewController.cs",
-              "RelativeToolTip": "Med\\Controllers\\ReviewController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAYwEAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T07:22:34.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "Med\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T18:11:43.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Review.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\Review.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\Review.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\Review.cs",
-              "RelativeToolTip": "Med\\Models\\Review.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T06:59:24.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 14,
               "Title": "EditOrderDetails.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\EditOrderDetails.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditOrderDetails.cshtml",
               "RelativeDocumentMoniker": "Med\\Views\\Admin\\EditOrderDetails.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\EditOrderDetails.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditOrderDetails.cshtml",
               "RelativeToolTip": "Med\\Views\\Admin\\EditOrderDetails.cshtml",
               "ViewState": "AgIAABkAAAAAAAAAAAAYwEgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -723,299 +413,221 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\Order.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\Order.cs",
-              "RelativeToolTip": "Med\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T13:41:30.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\OrderDetail.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\OrderDetail.cs",
-              "RelativeToolTip": "Med\\Models\\OrderDetail.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA9wAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T13:41:49.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Med\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Med\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAOUBAAAAAAAAAAAgwPYBAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-12T08:12:44.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "AuthUser.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\AuthUser.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\AuthUser.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\AuthUser.cs",
-              "RelativeToolTip": "Med\\Models\\AuthUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T19:00:09.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "_Header.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\_Header.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Shared\\_Header.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\_Header.cshtml",
-              "RelativeToolTip": "Med\\Views\\Shared\\_Header.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAAEAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddUser.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddUser.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\AddUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T07:25:14.455Z"
+              "WhenOpened": "2024-12-12T10:28:41.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Program.cs",
+              "RelativeDocumentMoniker": "Med\\Program.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Program.cs",
+              "RelativeToolTip": "Med\\Program.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAiwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T08:14:07.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "Med\\Services\\ApiService.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Services\\ApiService.cs",
+              "RelativeToolTip": "Med\\Services\\ApiService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:18:08.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\User.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\User.cs",
               "RelativeDocumentMoniker": "Med\\Models\\User.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\User.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\User.cs",
               "RelativeToolTip": "Med\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA4wBoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:24:49.744Z"
+              "WhenOpened": "2024-10-23T15:24:49.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AverageRatingViewComponent.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\ViewComponents\\AverageRatingViewComponent.cs",
-              "RelativeDocumentMoniker": "Med\\ViewComponents\\AverageRatingViewComponent.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\ViewComponents\\AverageRatingViewComponent.cs",
-              "RelativeToolTip": "Med\\ViewComponents\\AverageRatingViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T05:51:05.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 3,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Med\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "Med\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T19:09:56.546Z"
+              "WhenOpened": "2025-06-03T19:09:56.546Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Med\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T06:47:38.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\Components\\AverageRating\\Default.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Shared\\Components\\AverageRating\\Default.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\Components\\AverageRating\\Default.cshtml",
-              "RelativeToolTip": "Med\\Views\\Shared\\Components\\AverageRating\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T05:53:21.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Med\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "Med\\Controllers\\ManagerController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "Med\\Controllers\\ManagerController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAHkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T17:37:11.516Z"
+              "WhenOpened": "2024-12-12T07:15:17.215Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "AdminTables.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\AdminTables.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\AdminTables.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\AdminTables.cs",
-              "RelativeToolTip": "Med\\Models\\AdminTables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\Product.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\Product.cs",
+              "RelativeToolTip": "Med\\Models\\Product.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA2wCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T16:41:30.077Z"
+              "WhenOpened": "2024-09-27T08:00:16.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "AuditLog.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\AuditLog.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\AuditLog.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\AuditLog.cs",
-              "RelativeToolTip": "Med\\Models\\AuditLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\Supplier.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\Supplier.cs",
+              "RelativeToolTip": "Med\\Models\\Supplier.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T11:07:51.482Z"
+              "WhenOpened": "2025-09-20T04:21:54.36Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ManagerManage.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Manager\\ManagerManage.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Manager\\ManagerManage.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Manager\\ManagerManage.cshtml",
-              "RelativeToolTip": "Med\\Views\\Manager\\ManagerManage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "EditRole.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditRole.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\EditRole.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditRole.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\EditRole.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T08:00:56.808Z"
+              "WhenOpened": "2024-12-12T07:26:59.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\appsettings.json",
-              "RelativeDocumentMoniker": "Med\\appsettings.json",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\appsettings.json",
-              "RelativeToolTip": "Med\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-30T06:47:46.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Med\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Med\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-06T06:07:58.168Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "AddCategory.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AddCategory.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddCategory.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\AddCategory.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\AddCategory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\EditProduct.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\EditProduct.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwC0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T17:44:58.207Z"
+              "WhenOpened": "2024-12-12T07:26:20.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 12,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddProduct.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\AddProduct.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:44:36.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditSupplier.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditSupplier.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\EditSupplier.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditSupplier.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\EditSupplier.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T05:14:31.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddSupplier.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddSupplier.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddSupplier.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddSupplier.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\AddSupplier.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T05:14:09.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\Review.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\Review.cs",
+              "RelativeToolTip": "Med\\Models\\Review.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T06:59:24.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Med\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Med\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:36:24.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\Error.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Med\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\Error.cshtml",
               "RelativeToolTip": "Med\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-30T06:47:40.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\Role.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\Role.cs",
-              "RelativeToolTip": "Med\\Models\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:41:53.49Z"
+              "DocumentIndex": 22,
+              "Title": "AddOrderDetails.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddOrderDetails.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddOrderDetails.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddOrderDetails.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\AddOrderDetails.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T11:09:34.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "SalesAnalyticsResponse.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\SalesAnalyticsResponse.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\SalesAnalyticsResponse.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\SalesAnalyticsResponse.cs",
-              "RelativeToolTip": "Med\\Models\\SalesAnalyticsResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T16:10:37.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\LoginModel.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\LoginModel.cs",
-              "RelativeToolTip": "Med\\Models\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:31:37.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\Category.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\Category.cs",
-              "RelativeToolTip": "Med\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T08:00:47.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "CartView.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\CartView.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\CartView.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\CartView.cs",
-              "RelativeToolTip": "Med\\Models\\CartView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:38:22.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\CartItem.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\CartItem.cs",
-              "RelativeToolTip": "Med\\Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T17:10:57.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 21,
               "Title": "AuthResponse.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\AuthResponse.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\AuthResponse.cs",
               "RelativeDocumentMoniker": "Med\\Models\\AuthResponse.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\AuthResponse.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\AuthResponse.cs",
               "RelativeToolTip": "Med\\Models\\AuthResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1023,35 +635,204 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 23,
+              "Title": "EditCategory.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditCategory.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\EditCategory.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditCategory.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\EditCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T07:26:47.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddCategory.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddCategory.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddCategory.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddCategory.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\AddCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:44:58.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\AppDbContext.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Med\\Models\\AppDbContext.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\AppDbContext.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\AppDbContext.cs",
               "RelativeToolTip": "Med\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T08:03:03.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "ProductSales.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\ProductSales.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\ProductSales.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\ProductSales.cs",
-              "RelativeToolTip": "Med\\Models\\ProductSales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\Category.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\Category.cs",
+              "RelativeToolTip": "Med\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T16:11:00.27Z"
+              "WhenOpened": "2024-09-27T08:00:47.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 28,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Med\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Med\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowCMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:11:12.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AccountAdminManager.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\AccountAdminManager.cs",
+              "RelativeDocumentMoniker": "Med\\Controllers\\AccountAdminManager.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\AccountAdminManager.cs",
+              "RelativeToolTip": "Med\\Controllers\\AccountAdminManager.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAUwNAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T16:09:34.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AverageRatingViewComponent.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\ViewComponents\\AverageRatingViewComponent.cs",
+              "RelativeDocumentMoniker": "Med\\ViewComponents\\AverageRatingViewComponent.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\ViewComponents\\AverageRatingViewComponent.cs",
+              "RelativeToolTip": "Med\\ViewComponents\\AverageRatingViewComponent.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T05:51:05.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\appsettings.json",
+              "RelativeDocumentMoniker": "Med\\appsettings.json",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\appsettings.json",
+              "RelativeToolTip": "Med\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-30T06:47:46.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Med\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Med\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAwFQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:39:01.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Med\\Controllers\\ReviewController.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Med\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAQwEAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T07:22:34.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApiSettings.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\ApiSettings.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\ApiSettings.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\ApiSettings.cs",
+              "RelativeToolTip": "Med\\Models\\ApiSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:16:48.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Med\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T07:26:58.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\AccountAdminManager\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\AccountAdminManager\\SignUp.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\AccountAdminManager\\SignUp.cshtml",
+              "RelativeToolTip": "Med\\Views\\AccountAdminManager\\SignUp.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwDMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T08:12:37.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\AccountAdminManager\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\AccountAdminManager\\SignIn.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\AccountAdminManager\\SignIn.cshtml",
+              "RelativeToolTip": "Med\\Views\\AccountAdminManager\\SignIn.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T08:12:17.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\AuditLog.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\AuditLog.cs",
+              "RelativeToolTip": "Med\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:07:51.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DateSales.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\DateSales.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\DateSales.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\DateSales.cs",
+              "RelativeToolTip": "Med\\Models\\DateSales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:11:14.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "ManagerTables.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\ManagerTables.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\ManagerTables.cs",
               "RelativeDocumentMoniker": "Med\\Models\\ManagerTables.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\ManagerTables.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\ManagerTables.cs",
               "RelativeToolTip": "Med\\Models\\ManagerTables.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1059,11 +840,431 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Med\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:31:37.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\RegisterModel.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "Med\\Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:00:46.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ResetPasswordModel.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\ResetPasswordModel.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\ResetPasswordModel.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\ResetPasswordModel.cs",
+              "RelativeToolTip": "Med\\Models\\ResetPasswordModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:13:21.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\Role.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\Role.cs",
+              "RelativeToolTip": "Med\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T10:41:53.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SalesAnalyticsResponse.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\SalesAnalyticsResponse.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\SalesAnalyticsResponse.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\SalesAnalyticsResponse.cs",
+              "RelativeToolTip": "Med\\Models\\SalesAnalyticsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:10:37.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UploadResponse.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\UploadResponse.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\UploadResponse.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\UploadResponse.cs",
+              "RelativeToolTip": "Med\\Models\\UploadResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:49:40.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ForgotPasswordModel.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\ForgotPasswordModel.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\ForgotPasswordModel.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\ForgotPasswordModel.cs",
+              "RelativeToolTip": "Med\\Models\\ForgotPasswordModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:12:58.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\AccountAdminManager\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\AccountAdminManager\\ResetPassword.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\AccountAdminManager\\ResetPassword.cshtml",
+              "RelativeToolTip": "Med\\Views\\AccountAdminManager\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T11:14:47.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\AccountAdminManager\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\AccountAdminManager\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\AccountAdminManager\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Med\\Views\\AccountAdminManager\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T11:14:25.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Catalog.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Home\\Catalog.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Home\\Catalog.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Home\\Catalog.cshtml",
+              "RelativeToolTip": "Med\\Views\\Home\\Catalog.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T18:21:56.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Reviews.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Home\\Reviews.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Home\\Reviews.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Home\\Reviews.cshtml",
+              "RelativeToolTip": "Med\\Views\\Home\\Reviews.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T11:56:10.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AuthUser.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\AuthUser.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\AuthUser.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\AuthUser.cs",
+              "RelativeToolTip": "Med\\Models\\AuthUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T19:00:09.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AddOrder.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddOrder.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddOrder.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddOrder.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\AddOrder.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwBsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:44:47.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Manager\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Manager\\EditProduct.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Manager\\EditProduct.cshtml",
+              "RelativeToolTip": "Med\\Views\\Manager\\EditProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T08:09:54.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Manager\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Manager\\AddProduct.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Manager\\AddProduct.cshtml",
+              "RelativeToolTip": "Med\\Views\\Manager\\AddProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T08:06:22.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "EditOrder.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditOrder.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\EditOrder.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\EditOrder.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\EditOrder.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T07:26:33.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AddRole.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddRole.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AddRole.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AddRole.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\AddRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:45:10.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AuditLog.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AuditLog.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Admin\\AuditLog.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Admin\\AuditLog.cshtml",
+              "RelativeToolTip": "Med\\Views\\Admin\\AuditLog.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T11:10:46.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Med\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T06:45:42.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "SalesAnalytics.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Manager\\SalesAnalytics.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Manager\\SalesAnalytics.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Manager\\SalesAnalytics.cshtml",
+              "RelativeToolTip": "Med\\Views\\Manager\\SalesAnalytics.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAYwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T11:42:20.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Med\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T22:07:43.082Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 62,
+              "Title": "_ReviewForm.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\_ReviewForm.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Shared\\_ReviewForm.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\_ReviewForm.cshtml",
+              "RelativeToolTip": "Med\\Views\\Shared\\_ReviewForm.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T05:49:47.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Med\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T18:11:43.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\Order.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\Order.cs",
+              "RelativeToolTip": "Med\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:41:30.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Med\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:41:49.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Med\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Med\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAOUBAAAAAAAAAAAgwPYBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-12T08:12:44.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "Med\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAIBJwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T07:25:14.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Med\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T06:47:38.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\Components\\AverageRating\\Default.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Shared\\Components\\AverageRating\\Default.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\Components\\AverageRating\\Default.cshtml",
+              "RelativeToolTip": "Med\\Views\\Shared\\Components\\AverageRating\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T05:53:21.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Med\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:37:11.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ManagerManage.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Manager\\ManagerManage.cshtml",
+              "RelativeDocumentMoniker": "Med\\Views\\Manager\\ManagerManage.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Manager\\ManagerManage.cshtml",
+              "RelativeToolTip": "Med\\Views\\Manager\\ManagerManage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T08:00:56.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Med\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Med\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-06T06:07:58.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "CartView.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\CartView.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\CartView.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\CartView.cs",
+              "RelativeToolTip": "Med\\Models\\CartView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:38:22.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\CartItem.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\CartItem.cs",
+              "RelativeToolTip": "Med\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:10:57.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ProductSales.cs",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\ProductSales.cs",
+              "RelativeDocumentMoniker": "Med\\Models\\ProductSales.cs",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Models\\ProductSales.cs",
+              "RelativeToolTip": "Med\\Models\\ProductSales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:11:00.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Med\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Med\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1071,11 +1272,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 77,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Med\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "Med\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1083,23 +1284,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "Med\\Models\\RegisterModel.cs",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Models\\RegisterModel.cs",
-              "RelativeToolTip": "Med\\Models\\RegisterModel.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA+wB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T12:00:46.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 78,
               "Title": "Review.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\DisplayTemplates\\Review.cshtml",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\DisplayTemplates\\Review.cshtml",
               "RelativeDocumentMoniker": "Med\\Views\\Shared\\DisplayTemplates\\Review.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\DisplayTemplates\\Review.cshtml",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\DisplayTemplates\\Review.cshtml",
               "RelativeToolTip": "Med\\Views\\Shared\\DisplayTemplates\\Review.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1107,31 +1296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "EditUser.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\EditUser.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\EditUser.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\EditUser.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\EditUser.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T07:27:12.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "_Footer.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\_Footer.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Shared\\_Footer.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\_Footer.cshtml",
-              "RelativeToolTip": "Med\\Views\\Shared\\_Footer.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T07:26:58.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 53,
               "Title": "ClientController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedTechPlusDB\\Controllers\\ClientController.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\MedTechPlusDB\\Controllers\\ClientController.cs",
@@ -1140,23 +1305,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "EditCategory.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\EditCategory.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\EditCategory.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\EditCategory.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\EditCategory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T07:26:47.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 79,
               "Title": "Med.csproj",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Med.csproj",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Med.csproj",
               "RelativeDocumentMoniker": "Med\\Med.csproj",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Med.csproj",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Med.csproj",
               "RelativeToolTip": "Med\\Med.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -1164,27 +1317,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 80,
               "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Med\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\MEDKursovaya\\Med\\Med\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeToolTip": "Med\\Views\\Shared\\_Layout.cshtml.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-09-19T21:12:12.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "EditRole.cshtml",
-              "DocumentMoniker": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\EditRole.cshtml",
-              "RelativeDocumentMoniker": "Med\\Views\\Admin\\EditRole.cshtml",
-              "ToolTip": "D:\\ProjectMPT\\\u041A\u0443\u0440\u0441\u0430\u0447 4 \u043A\u0443\u0440\u0441\\Med\\Med\\Views\\Admin\\EditRole.cshtml",
-              "RelativeToolTip": "Med\\Views\\Admin\\EditRole.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T07:26:59.082Z"
             }
           ]
         }

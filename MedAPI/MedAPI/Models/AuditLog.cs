@@ -2,13 +2,13 @@
 {
     public class AuditLog
     {
-        public int AuditLogID { get; set; }         // PK
-        public string TableName { get; set; }       // Название таблицы
-        public int RecordID { get; set; }           // ID изменённой записи
-        public string Operation { get; set; }       // Insert/Update/Delete
-        public string OldValue { get; set; }        // Старое значение (JSON)
-        public string NewValue { get; set; }        // Новое значение (JSON)
-        public string ChangedBy { get; set; }       // Кто сделал изменение
-        public DateTime ChangedAt { get; set; }     // Когда
+        public int AuditLogID { get; set; }         
+        public string TableName { get; set; }      
+        public int RecordID { get; set; }        
+        public string Operation { get; set; }      
+        public string OldValue { get; set; }    
+        public string NewValue { get; set; }        
+        public string ChangedBy { get; set; }     
+        public DateTime ChangedAt { get; set; }   
     }
 }

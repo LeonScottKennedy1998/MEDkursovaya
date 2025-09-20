@@ -1,4 +1,6 @@
 ﻿using MedAPI.Models;
+using MedAPI.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -14,11 +16,13 @@ namespace MedAPI.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IConfiguration _config;
+        private readonly EmailService _emailService;
 
-        public AuthController(AppDbContext context, IConfiguration config)
+        public AuthController(AppDbContext context, IConfiguration config, EmailService emailService)
         {
             _context = context;
             _config = config;
+            _emailService = emailService;
         }
 
         [HttpPost("login")]
@@ -28,7 +32,8 @@ namespace MedAPI.Controllers
         .FirstOrDefaultAsync(u => u.Username == model.Username);
 
             if (user == null || !BCrypt.Net.BCrypt.Verify(model.PasswordUser, user.PasswordUser))
-                return Unauthorized("Неверный логин или пароль");
+                return Unauthorized(new { Message = "Неверный логин или пароль" });
+
 
             var role = await _context.Roles
                 .Where(r => r.RoleID == user.RoleID)
@@ -93,7 +98,7 @@ namespace MedAPI.Controllers
                 Username = model.Username,
                 PasswordUser = BCrypt.Net.BCrypt.HashPassword(model.PasswordUser),
                 AddressUser = model.AddressUser,
-                RoleID = model.RoleID
+                RoleID = 2
             };
 
             _context.Users.Add(user);
@@ -102,7 +107,53 @@ namespace MedAPI.Controllers
             return Ok(new { Message = "Регистрация прошла успешно" });
         }
 
-       
+        [AllowAnonymous]
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordModel model)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
+            if (user == null)
+                return BadRequest(new { Message = "Пользователь с таким email не найден." });
+
+            var token = Guid.NewGuid().ToString();
+
+            user.ResetToken = token;
+            user.ResetTokenExpiry = DateTime.UtcNow.AddHours(1);
+            await _context.SaveChangesAsync();
+
+            var resetLink = $"{_config["AppSettings:FrontendUrl"]}/AccountAdminManager/ResetPassword?email={user.Email}&token={token}";
+
+            var emailBody = $@"
+        <h3>Сброс пароля</h3>
+        <p>Для сброса пароля перейдите по ссылке:</p>
+        <a href='{resetLink}'>Сбросить пароль</a>
+        <p>Ссылка действительна 1 час.</p>";
+
+            await _emailService.SendEmailAsync(user.Email, "Сброс пароля - Медятина", emailBody);
+
+            return Ok();
+        }
+
+        [AllowAnonymous]
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordModel model)
+        {
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Email == model.Email &&
+                                          u.ResetToken == model.Token &&
+                                          u.ResetTokenExpiry > DateTime.UtcNow);
+            if (user == null)
+                return BadRequest(new { Message = "Неверный или просроченный токен." });
+
+            user.PasswordUser = BCrypt.Net.BCrypt.HashPassword(model.NewPassword);
+            user.ResetToken = null;
+            user.ResetTokenExpiry = null;
+            await _context.SaveChangesAsync();
+
+            return Ok();
+        }
+
+
     }
 
 }

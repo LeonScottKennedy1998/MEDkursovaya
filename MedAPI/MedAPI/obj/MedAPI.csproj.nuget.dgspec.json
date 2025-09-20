@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\MedAPI.csproj": {}
+    "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\MedAPI.csproj": {}
   },
   "projects": {
-    "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\MedAPI.csproj": {
+    "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\MedAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\MedAPI.csproj",
+        "projectUniqueName": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\MedAPI.csproj",
         "projectName": "MedAPI",
-        "projectPath": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\MedAPI.csproj",
+        "projectPath": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\MedAPI.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectMPT\\Курсач 4 курс\\MedAPI\\MedAPI\\obj\\",
+        "outputPath": "D:\\ProjectMPT\\Курсач 4 курс\\MEDKursovaya\\MedAPI\\MedAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.13.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",

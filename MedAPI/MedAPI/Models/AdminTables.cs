@@ -9,6 +9,7 @@ namespace MedAPI.Models
         public List<Order> Orders { get; set; }
         public List<Category> Categories { get; set; }
         public List<Role> Roles { get; set; }
+        public List<Supplier> Suppliers { get; set; }
 
         public List<OrderDetail> OrderDetails { get; set; }
 

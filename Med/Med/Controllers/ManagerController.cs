@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Hosting;
 using System.Text;
 using System.Net;
 using System.IO;
+using Med.Services;
 
 namespace Med.Controllers
 {
@@ -18,32 +19,25 @@ namespace Med.Controllers
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly ILogger<ManagerController> _logger;
-        private readonly string _apiBaseUrl = "http://localhost:5072";
+        private readonly IApiService _apiService;
 
         public ManagerController(
             IHttpClientFactory httpClientFactory,
             IWebHostEnvironment webHostEnvironment,
-            ILogger<ManagerController> logger)
+            ILogger<ManagerController> logger,IApiService apiService)
         {
             _httpClientFactory = httpClientFactory;
             _webHostEnvironment = webHostEnvironment;
             _logger = logger;
-        }
-
-        private async Task<HttpClient> GetAuthenticatedClient()
-        {
-            var token = Request.Cookies["jwt"];
-            var client = _httpClientFactory.CreateClient();
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            return client;
+            _apiService = apiService;
         }
 
         public async Task<IActionResult> ManagerManage()
         {
             try
             {
-                var client = await GetAuthenticatedClient();
-                var response = await client.GetAsync($"{_apiBaseUrl}/api/products/products");
+                var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+                var response = await client.GetAsync($"{_apiService.BaseUrl}/api/products/products");
 
                 List<Product> products = new List<Product>(); 
 
@@ -88,8 +82,8 @@ namespace Med.Controllers
                 var content = new MultipartFormDataContent();
                 content.Add(new StreamContent(new MemoryStream(ms.ToArray())), "file", ImageFile.FileName);
 
-                var client = await GetAuthenticatedClient();
-                var response = await client.PostAsync($"{_apiBaseUrl}/api/media/upload", content);
+                var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+                var response = await client.PostAsync($"{_apiService.BaseUrl}/api/media/upload", content);
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -110,8 +104,8 @@ namespace Med.Controllers
                 }
             }
 
-            var apiClient = await GetAuthenticatedClient();
-            var productResponse = await apiClient.PostAsJsonAsync($"{_apiBaseUrl}/api/products/products", product);
+            var apiclient = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var productResponse = await apiclient.PostAsJsonAsync($"{_apiService.BaseUrl}/api/products/products", product);
 
             if (!productResponse.IsSuccessStatusCode)
             {
@@ -125,8 +119,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> EditProduct(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/products/products/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/products/products/{id}");
 
             if (response.StatusCode == HttpStatusCode.NotFound)
             {
@@ -157,8 +151,8 @@ namespace Med.Controllers
                     var content = new MultipartFormDataContent();
                     content.Add(new StreamContent(new MemoryStream(ms.ToArray())), "file", ImageFile.FileName);
 
-                    var client = await GetAuthenticatedClient();
-                    var response = await client.PostAsync($"{_apiBaseUrl}/api/media/upload", content);
+                    var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+                    var response = await client.PostAsync($"{_apiService.BaseUrl}/api/media/upload", content);
 
                     if (response.IsSuccessStatusCode)
                     {
@@ -174,8 +168,8 @@ namespace Med.Controllers
                     }
                 }
   
-                var apiClient = await GetAuthenticatedClient();                    
-                            var productResponse = await apiClient.PutAsJsonAsync($"{_apiBaseUrl}/api/products/products/{product.ProductID}", product);
+                var apiclient = await _apiService.CreateAuthenticatedClient(HttpContext);                    
+                var productResponse = await apiclient.PutAsJsonAsync($"{_apiService.BaseUrl}/api/products/products/{product.ProductID}", product);
 
                 if (!productResponse.IsSuccessStatusCode)
                 {
@@ -196,8 +190,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> DeleteProduct(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.DeleteAsync($"{_apiBaseUrl}/api/products/products/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.DeleteAsync($"{_apiService.BaseUrl}/api/products/products/{id}");
 
             if (!response.IsSuccessStatusCode)
             {
@@ -211,8 +205,8 @@ namespace Med.Controllers
         {
             try
             {
-                var client = await GetAuthenticatedClient();
-                var response = await client.GetAsync($"{_apiBaseUrl}/api/analytics/sales");
+                var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+                var response = await client.GetAsync($"{_apiService.BaseUrl}/api/analytics/sales");
 
                 if (!response.IsSuccessStatusCode)
                 {
@@ -243,8 +237,8 @@ namespace Med.Controllers
         {
             try
             {
-                var client = await GetAuthenticatedClient();
-                var response = await client.GetAsync($"{_apiBaseUrl}/api/analytics/sales");
+                var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+                var response = await client.GetAsync($"{_apiService.BaseUrl}/api/analytics/sales");
 
                 if (!response.IsSuccessStatusCode)
                 {
@@ -305,8 +299,8 @@ namespace Med.Controllers
 
         private async Task<List<Category>> GetCategoriesFromApi()
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/categories/categories");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/categories/categories");
             return response.IsSuccessStatusCode
                 ? await response.Content.ReadFromJsonAsync<List<Category>>()
                 : new List<Category>();

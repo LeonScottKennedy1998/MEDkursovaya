@@ -10,6 +10,7 @@ using Newtonsoft.Json;
 using System.Text;
 using Microsoft.Extensions.Logging;
 using System.Net.Http.Headers;
+using Med.Services;
 
 namespace Med.Controllers
 {
@@ -18,27 +19,21 @@ namespace Med.Controllers
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<AdminController> _logger;
-        private readonly string _apiBaseUrl = "http://localhost:5072";
+        private readonly IApiService _apiService;
         public AdminController(
             IHttpClientFactory httpClientFactory,
             ILogger<AdminController> logger,
-            IConfiguration configuration)
+            IConfiguration configuration, IApiService apiService)
         {
             _httpClientFactory = httpClientFactory;
             _logger = logger;
+            _apiService = apiService;
         }
 
-        private async Task<HttpClient> GetAuthenticatedClient()
-        {
-            var token = Request.Cookies["jwt"];
-            var client = _httpClientFactory.CreateClient();
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            return client;
-        }
         public async Task<IActionResult> AdminManage()
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/admin/alldata");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/admin/alldata");
 
             if (!response.IsSuccessStatusCode)
             {
@@ -50,10 +45,13 @@ namespace Med.Controllers
             return View(data);
         }
 
+        // Методы для работы с пользователями
+
+
         public async Task<IActionResult> AddUser()
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/roles/roles");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/roles/roles");
 
             if (response.IsSuccessStatusCode)
             {
@@ -76,8 +74,8 @@ namespace Med.Controllers
                 return View(user);
             }
 
-            var client = await GetAuthenticatedClient();
-            var response = await client.PostAsJsonAsync($"{_apiBaseUrl}/api/users/users", user);
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PostAsJsonAsync($"{_apiService.BaseUrl}/api/users/users", user);
 
             if (response.StatusCode == HttpStatusCode.Conflict)
             {
@@ -100,8 +98,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> EditUser(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/users/users/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/users/users/{id}");
 
             if (response.StatusCode == HttpStatusCode.NotFound)
             {
@@ -127,8 +125,8 @@ namespace Med.Controllers
                 return View(user);
             }
 
-            var client = await GetAuthenticatedClient();
-            var response = await client.PutAsJsonAsync($"{_apiBaseUrl}/api/users/users/{user.UserID}", user);
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PutAsJsonAsync($"{_apiService.BaseUrl}/api/users/users/{user.UserID}", user);
 
             if (!response.IsSuccessStatusCode)
             {
@@ -142,8 +140,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> DeleteUser(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.DeleteAsync($"{_apiBaseUrl}/api/users/users/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.DeleteAsync($"{_apiService.BaseUrl}/api/users/users/{id}");
 
             if (!response.IsSuccessStatusCode)
             {
@@ -153,9 +151,12 @@ namespace Med.Controllers
             return RedirectToAction("AdminManage");
         }
 
+        // Методы для работы с продуктами
+
         public async Task<IActionResult> AddProduct()
         {
             ViewBag.Categories = await GetCategoriesFromApi();
+            ViewBag.Suppliers = await GetSuppliersFromApi();
             return View();
         }
 
@@ -164,7 +165,6 @@ namespace Med.Controllers
         {
             try
             {
-                System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log", $"[{DateTime.Now}] Entered method\n");
 
                 if (ImageFile != null && ImageFile.Length > 0)
                 {
@@ -174,13 +174,12 @@ namespace Med.Controllers
                     var content = new MultipartFormDataContent();
                     content.Add(new StreamContent(new MemoryStream(ms.ToArray())), "file", ImageFile.FileName);
 
-                    var client = await GetAuthenticatedClient();
-                    var response = await client.PostAsync($"{_apiBaseUrl}/api/media/upload", content);
+                    var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+                    var response = await client.PostAsync($"{_apiService.BaseUrl}/api/media/upload", content);
 
                     if (response.IsSuccessStatusCode)
                     {
                         var raw = await response.Content.ReadAsStringAsync();
-                        System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log", $"[{DateTime.Now}] Upload raw response: {raw}\n");
 
                         var result = await response.Content.ReadFromJsonAsync<UploadResponse>();
                         if (result != null)
@@ -191,54 +190,44 @@ namespace Med.Controllers
                     else
                     {
                         var errorRaw = await response.Content.ReadAsStringAsync();
-                        System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log",
-                            $"[{DateTime.Now}] Upload failed: {response.StatusCode}, {response.ReasonPhrase}, Content={errorRaw}\n");
+
                     }
                 }
-                System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log", $"[{DateTime.Now}] Before API call\n");
-                var apiClient = await GetAuthenticatedClient();
-                System.IO.File.AppendAllText(
-   "D:\\ProjectMPT\\EditProduct.log",
-   $"[{DateTime.Now}] Before PUT, ImageUrl={product.ImageUrl}\n"
-);
-                var productResponse = await apiClient.PostAsJsonAsync($"{_apiBaseUrl}/api/products/products", product);
-                System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log", $"[{DateTime.Now}] API call completed: {productResponse.StatusCode}\n");
+                var apiClient = await _apiService.CreateAuthenticatedClient(HttpContext);
+                var productResponse = await apiClient.PostAsJsonAsync($"{_apiService.BaseUrl}/api/products/products", product);
 
                 if (string.IsNullOrEmpty(product.ImageUrl))
                 {
                     ModelState.AddModelError("ImageFile", "Изображение продукта обязательно.");
                     ViewBag.Categories = await GetCategoriesFromApi();
+                    ViewBag.Suppliers = await GetSuppliersFromApi();
+
                     return View(product);
                 }
 
                 if (!productResponse.IsSuccessStatusCode)
                 {
                     var errorContent = await productResponse.Content.ReadAsStringAsync();
-                    System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log", $"[{DateTime.Now}] API returned error: {errorContent}\n");
 
                     ModelState.AddModelError("", "Произошла ошибка. Пожалуйста, попробуйте позже.");
                     ViewBag.Categories = await GetCategoriesFromApi();
+                    ViewBag.Suppliers = await GetSuppliersFromApi();
                     return View(product);
                 }
 
-                System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log", $"[{DateTime.Now}] Product updated successfully\n");
 
                 return RedirectToAction("AdminManage");
             }
             catch (Exception ex)
             {
-                System.IO.File.AppendAllText(
-                        "D:\\ProjectMPT\\EditProduct.log",
-                        $"[{DateTime.Now}] Caught Exception: {ex}\nStackTrace: {ex.StackTrace}\n\n"
-                    );
                 return View(product);
             }
         }
 
         public async Task<IActionResult> EditProduct(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/products/products/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/products/products/{id}");
 
             if (response.StatusCode == HttpStatusCode.NotFound)
             {
@@ -252,6 +241,7 @@ namespace Med.Controllers
 
             var product = await response.Content.ReadFromJsonAsync<Product>();
             ViewBag.Categories = await GetCategoriesFromApi();
+            ViewBag.Suppliers = await GetSuppliersFromApi();
             return View(product);
         }
 
@@ -261,7 +251,6 @@ namespace Med.Controllers
             try
             {
 
-                System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log", $"[{DateTime.Now}] Entered method\n");
 
                 if (ImageFile != null && ImageFile.Length > 0)
                 {
@@ -271,13 +260,12 @@ namespace Med.Controllers
                     var content = new MultipartFormDataContent();
                     content.Add(new StreamContent(new MemoryStream(ms.ToArray())), "file", ImageFile.FileName);
 
-                    var client = await GetAuthenticatedClient();
-                    var response = await client.PostAsync($"{_apiBaseUrl}/api/media/upload", content);
+                    var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+                    var response = await client.PostAsync($"{_apiService.BaseUrl}/api/media/upload", content);
 
                     if (response.IsSuccessStatusCode)
                     {
                         var raw = await response.Content.ReadAsStringAsync();
-                        System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log", $"[{DateTime.Now}] Upload raw response: {raw}\n");
 
                         var result = await response.Content.ReadFromJsonAsync<UploadResponse>();
                         if (result != null)
@@ -288,47 +276,37 @@ namespace Med.Controllers
                     else
                     {
                         var errorRaw = await response.Content.ReadAsStringAsync();
-                        System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log",
-                            $"[{DateTime.Now}] Upload failed: {response.StatusCode}, {response.ReasonPhrase}, Content={errorRaw}\n");
+
                     }
                 }
 
-                System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log", $"[{DateTime.Now}] Before API call\n");
-                var apiClient = await GetAuthenticatedClient();
-                        System.IO.File.AppendAllText(
-            "D:\\ProjectMPT\\EditProduct.log",
-            $"[{DateTime.Now}] Before PUT, ImageUrl={product.ImageUrl}\n"
-        );
-                var productResponse = await apiClient.PutAsJsonAsync($"{_apiBaseUrl}/api/products/products/{product.ProductID}", product);
-                System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log", $"[{DateTime.Now}] API call completed: {productResponse.StatusCode}\n");
+                var apiClient = await _apiService.CreateAuthenticatedClient(HttpContext);
+                    
+                var productResponse = await apiClient.PutAsJsonAsync($"{_apiService.BaseUrl}/api/products/products/{product.ProductID}", product);
 
                 if (!productResponse.IsSuccessStatusCode)
                 {
                     var errorContent = await productResponse.Content.ReadAsStringAsync();
-                    System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log", $"[{DateTime.Now}] API returned error: {errorContent}\n");
 
                     ModelState.AddModelError("", "Произошла ошибка. Пожалуйста, попробуйте позже.");
                     ViewBag.Categories = await GetCategoriesFromApi();
+                    ViewBag.Suppliers = await GetSuppliersFromApi();
                     return View(product);
                 }
 
-                System.IO.File.AppendAllText("D:\\ProjectMPT\\EditProduct.log", $"[{DateTime.Now}] Product updated successfully\n");
                 return RedirectToAction("AdminManage");
             }
             catch (Exception ex)
             {
-                System.IO.File.AppendAllText(
-                    "D:\\ProjectMPT\\EditProduct.log",
-                    $"[{DateTime.Now}] Caught Exception: {ex}\nStackTrace: {ex.StackTrace}\n\n"
-                );
                 return View(product);
             }
         }
 
         public async Task<IActionResult> DeleteProduct(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.DeleteAsync($"{_apiBaseUrl}/api/products/products/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+
+            var response = await client.DeleteAsync($"{_apiService.BaseUrl}/api/products/products/{id}");
 
             if (!response.IsSuccessStatusCode)
             {
@@ -337,6 +315,8 @@ namespace Med.Controllers
 
             return RedirectToAction("AdminManage");
         }
+
+        // Методы для работы с заказами
 
 
         public async Task<IActionResult> AddOrder()
@@ -354,8 +334,8 @@ namespace Med.Controllers
                 return View(order);
             }
 
-            var client = await GetAuthenticatedClient();
-            var response = await client.PostAsJsonAsync($"{_apiBaseUrl}/api/admin/orders", order);
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PostAsJsonAsync($"{_apiService.BaseUrl}/api/admin/orders", order);
 
             if (!response.IsSuccessStatusCode)
             {
@@ -369,8 +349,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> EditOrder(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/admin/orders/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/admin/orders/{id}");
 
             if (response.StatusCode == HttpStatusCode.NotFound)
             {
@@ -402,8 +382,8 @@ namespace Med.Controllers
             var mskZone = TimeZoneInfo.FindSystemTimeZoneById("Russian Standard Time");
             order.OrderDate = TimeZoneInfo.ConvertTime(order.OrderDate, mskZone, TimeZoneInfo.Utc);
 
-            var client = await GetAuthenticatedClient();
-            var response = await client.PutAsJsonAsync($"{_apiBaseUrl}/api/admin/orders/{order.OrderID}", order);
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PutAsJsonAsync($"{_apiService.BaseUrl}/api/admin/orders/{order.OrderID}", order);
 
             if (!response.IsSuccessStatusCode)
             {
@@ -417,8 +397,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> DeleteOrder(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.DeleteAsync($"{_apiBaseUrl}/api/admin/orders/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.DeleteAsync($"{_apiService.BaseUrl}/api/admin/orders/{id}");
 
             if (!response.IsSuccessStatusCode)
             {
@@ -427,6 +407,8 @@ namespace Med.Controllers
 
             return RedirectToAction("AdminManage");
         }
+
+        // Методы для работы с деталями заказа
 
         public async Task<IActionResult> AddOrderDetails()
         {
@@ -447,8 +429,8 @@ namespace Med.Controllers
                 return View(orderDetails);
             }
 
-            var client = await GetAuthenticatedClient();
-            var response = await client.PostAsJsonAsync($"{_apiBaseUrl}/api/orderdetails/orderdetails", orderDetails);
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PostAsJsonAsync($"{_apiService.BaseUrl}/api/orderdetails/orderdetails", orderDetails);
 
             if (!response.IsSuccessStatusCode)
             {
@@ -463,8 +445,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> EditOrderDetails(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/orderdetails/orderdetails/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/orderdetails/orderdetails/{id}");
 
             if (response.StatusCode == HttpStatusCode.NotFound)
             {
@@ -494,8 +476,8 @@ namespace Med.Controllers
                 return View(orderdetail);
             }
 
-            var client = await GetAuthenticatedClient();
-            var response = await client.PutAsJsonAsync($"{_apiBaseUrl}/api/orderdetails/orderdetails/{orderdetail.OrderDetailID}", orderdetail);
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PutAsJsonAsync($"{_apiService.BaseUrl}/api/orderdetails/orderdetails/{orderdetail.OrderDetailID}", orderdetail);
 
             if (!response.IsSuccessStatusCode)
             {
@@ -510,8 +492,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> DeleteOrderDetails(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.DeleteAsync($"{_apiBaseUrl}/api/orderdetails/orderdetails/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.DeleteAsync($"{_apiService.BaseUrl}/api/orderdetails/orderdetails/{id}");
 
             if (!response.IsSuccessStatusCode)
             {
@@ -533,8 +515,8 @@ namespace Med.Controllers
         {
             if (!ModelState.IsValid) return View(category);
 
-            var client = await GetAuthenticatedClient();
-            var response = await client.PostAsJsonAsync($"{_apiBaseUrl}/api/categories/categories", category);
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PostAsJsonAsync($"{_apiService.BaseUrl}/api/categories/categories", category);
 
             if (response.StatusCode == HttpStatusCode.Conflict)
             {
@@ -555,8 +537,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> EditCategory(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/categories/categories/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/categories/categories/{id}");
 
             if (response.StatusCode == HttpStatusCode.NotFound)
             {
@@ -581,8 +563,8 @@ namespace Med.Controllers
                 return View(category);
             }
 
-            var client = await GetAuthenticatedClient();
-            var response = await client.PutAsJsonAsync($"{_apiBaseUrl}/api/categories/categories/{category.CategoryID}", category);
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PutAsJsonAsync($"{_apiService.BaseUrl}/api/categories/categories/{category.CategoryID}", category);
 
             if (!response.IsSuccessStatusCode)
             {
@@ -595,8 +577,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> DeleteCategory(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.DeleteAsync($"{_apiBaseUrl}/api/categories/categories/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.DeleteAsync($"{_apiService.BaseUrl}/api/categories/categories/{id}");
 
             if (!response.IsSuccessStatusCode)
             {
@@ -605,6 +587,90 @@ namespace Med.Controllers
 
             return RedirectToAction("AdminManage");
         }
+
+
+        // Методы для работы с поставщиками
+
+        public IActionResult AddSupplier()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddSupplier(Supplier supplier)
+        {
+            if (!ModelState.IsValid) return View(supplier);
+
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PostAsJsonAsync($"{_apiService.BaseUrl}/api/suppliers/suppliers", supplier);
+
+            if (response.StatusCode == HttpStatusCode.Conflict)
+            {
+                var errorMessage = await response.Content.ReadAsStringAsync();
+                ModelState.AddModelError("SupplierName", errorMessage);
+                return View(supplier);
+            }
+
+            if (!response.IsSuccessStatusCode)
+            {
+                ModelState.AddModelError("", "Произошла ошибка. Попробуйте позже.");
+                return View(supplier);
+            }
+
+            TempData["SuccessMessage"] = "Поставщик успешно добавлен!";
+            return RedirectToAction("AdminManage");
+        }
+
+        public async Task<IActionResult> EditSupplier(int id)
+        {
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/suppliers/suppliers/{id}");
+
+            if (response.StatusCode == HttpStatusCode.NotFound)
+            {
+                return NotFound();
+            }
+
+            if (!response.IsSuccessStatusCode)
+            {
+                return View("Error");
+            }
+
+            var supplier = await response.Content.ReadFromJsonAsync<Supplier>();
+            return View(supplier);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditSupplier(Supplier supplier)
+        {
+            if (!ModelState.IsValid) return View(supplier);
+
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PutAsJsonAsync($"{_apiService.BaseUrl}/api/suppliers/suppliers/{supplier.SupplierID}", supplier);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                ModelState.AddModelError("", "Произошла ошибка. Пожалуйста, попробуйте позже.");
+                return View(supplier);
+            }
+
+            return RedirectToAction("AdminManage");
+        }
+
+        public async Task<IActionResult> DeleteSupplier(int id)
+        {
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.DeleteAsync($"{_apiService.BaseUrl}/api/suppliers/suppliers/{id}");
+
+            if (!response.IsSuccessStatusCode)
+            {
+                _logger.LogError($"Error deleting supplier: {response.StatusCode}");
+            }
+
+            return RedirectToAction("AdminManage");
+        }
+
+        // Методы для работы с ролями
 
         public IActionResult AddRole()
         {
@@ -616,8 +682,8 @@ namespace Med.Controllers
         {
             if (!ModelState.IsValid) return View(role);
 
-            var client = await GetAuthenticatedClient();
-            var response = await client.PostAsJsonAsync($"{_apiBaseUrl}/api/roles/roles", role);
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PostAsJsonAsync($"{_apiService.BaseUrl}/api/roles/roles", role);
 
             if (response.StatusCode == HttpStatusCode.Conflict)
             {
@@ -638,8 +704,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> EditRole(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/roles/roles/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/roles/roles/{id}");
 
             if (response.StatusCode == HttpStatusCode.NotFound)
             {
@@ -664,8 +730,8 @@ namespace Med.Controllers
                 return View(role);
             }
 
-            var client = await GetAuthenticatedClient();
-            var response = await client.PutAsJsonAsync($"{_apiBaseUrl}/api/roles/roles/{role.RoleID}", role);
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.PutAsJsonAsync($"{_apiService.BaseUrl}/api/roles/roles/{role.RoleID}", role);
 
             if (!response.IsSuccessStatusCode)
             {
@@ -678,8 +744,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> DeleteRole(int id)
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.DeleteAsync($"{_apiBaseUrl}/api/roles/roles/{id}");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.DeleteAsync($"{_apiService.BaseUrl}/api/roles/roles/{id}");
 
             if (!response.IsSuccessStatusCode)
             {
@@ -691,8 +757,8 @@ namespace Med.Controllers
 
         public async Task<IActionResult> AuditLog()
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/admin/auditlogs");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/admin/auditlogs");
 
             if (!response.IsSuccessStatusCode)
             {
@@ -710,8 +776,8 @@ namespace Med.Controllers
 
         private async Task<List<Role>> GetRolesFromApi()
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/roles/roles");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/roles/roles");
             return response.IsSuccessStatusCode
                 ? await response.Content.ReadFromJsonAsync<List<Role>>()
                 : new List<Role>();
@@ -719,8 +785,8 @@ namespace Med.Controllers
 
         private async Task<List<Category>> GetCategoriesFromApi()
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/categories/categories");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/categories/categories");
             return response.IsSuccessStatusCode
                 ? await response.Content.ReadFromJsonAsync<List<Category>>()
                 : new List<Category>();
@@ -728,8 +794,8 @@ namespace Med.Controllers
 
         private async Task<List<User>> GetUsersFromApi()
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/users/users");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/users/users");
             return response.IsSuccessStatusCode
                 ? await response.Content.ReadFromJsonAsync<List<User>>()
                 : new List<User>();
@@ -737,8 +803,8 @@ namespace Med.Controllers
 
         private async Task<List<Product>> GetProductsFromApi()
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/products/products");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/products/products");
             return response.IsSuccessStatusCode
                 ? await response.Content.ReadFromJsonAsync<List<Product>>()
                 : new List<Product>();
@@ -746,11 +812,22 @@ namespace Med.Controllers
 
         private async Task<List<Order>> GetOrdersFromApi()
         {
-            var client = await GetAuthenticatedClient();
-            var response = await client.GetAsync($"{_apiBaseUrl}/api/admin/orders");
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/admin/orders");
             return response.IsSuccessStatusCode
                 ? await response.Content.ReadFromJsonAsync<List<Order>>()
                 : new List<Order>();
+        }
+
+        private async Task<List<Supplier>> GetSuppliersFromApi()
+        {
+            var client = await _apiService.CreateAuthenticatedClient(HttpContext);
+            var response = await client.GetAsync($"{_apiService.BaseUrl}/api/suppliers/suppliers");
+            if (response.IsSuccessStatusCode)
+            {
+                return await response.Content.ReadFromJsonAsync<List<Supplier>>() ?? new List<Supplier>();
+            }
+            return new List<Supplier>();
         }
     }
 }

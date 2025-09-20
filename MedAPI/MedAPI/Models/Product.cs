@@ -19,6 +19,10 @@ namespace MedAPI.Models
         [Required(ErrorMessage = "Категория продукта обязательна.")]
 
         public int CategoryID { get; set; }
+
+        [Required(ErrorMessage = "Поставщик обязателен.")]
+        public int? SupplierID { get; set; }
+
         [Required(ErrorMessage = "Количество продукта обязательно.")]
 
         public int Stock { get; set; }
@@ -28,6 +32,8 @@ namespace MedAPI.Models
         public string ImageUrl { get; set; }
 
         public Category? Category { get; set; }
+        public Supplier? Supplier { get; set; }
+
 
         public ICollection<Review>? Reviews { get; set; }
 

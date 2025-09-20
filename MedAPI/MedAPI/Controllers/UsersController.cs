@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MedAPI.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace MedAPI.Controllers
 {
@@ -43,6 +44,9 @@ namespace MedAPI.Controllers
             if (await _appDbContext.Users.AnyAsync(u => u.Username == user.Username))
                 return Conflict("Этот логин уже используется");
 
+            user.PasswordUser = BCrypt.Net.BCrypt.HashPassword(user.PasswordUser);
+
+
             _appDbContext.Users.Add(user);
             await _appDbContext.SaveChangesAsync();
             return CreatedAtAction(nameof(GetUser), new { id = user.UserID }, user);
@@ -53,7 +57,22 @@ namespace MedAPI.Controllers
         {
             if (id != user.UserID) return BadRequest();
 
-            _appDbContext.Entry(user).State = EntityState.Modified;
+            var existingUser = await _appDbContext.Users.FindAsync(id);
+            if (existingUser == null) return NotFound();
+
+            // Обновляем только изменяемые поля
+            existingUser.NameUser = user.NameUser;
+            existingUser.Email = user.Email;
+            existingUser.Username = user.Username;
+            existingUser.AddressUser = user.AddressUser;
+            existingUser.RoleID = user.RoleID;
+
+            // Если пароль изменён (не пусто и не placeholder), хэшируем
+            if (!string.IsNullOrEmpty(user.PasswordUser) && user.PasswordUser != "******")
+            {
+                existingUser.PasswordUser = BCrypt.Net.BCrypt.HashPassword(user.PasswordUser);
+            }
+
             await _appDbContext.SaveChangesAsync();
             return NoContent();
         }

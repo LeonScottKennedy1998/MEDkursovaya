@@ -11,6 +11,7 @@ using System.Net.Http;
 using System.Text;
 using Microsoft.AspNetCore.Authentication;
 using System.Net.Http.Headers;
+using Med.Services;
 
 namespace Med.Controllers
 {
@@ -18,22 +19,15 @@ namespace Med.Controllers
     public class CartController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
-        private readonly string _apiBaseUrl = "http://localhost:5072";
         private readonly ILogger<CartController> _logger;
+        private readonly IApiService _apiService;
 
-        public CartController(IHttpClientFactory httpClientFactory, ILogger<CartController> logger)
+        public CartController(IHttpClientFactory httpClientFactory, ILogger<CartController> logger, IApiService apiService)
         {
             _httpClientFactory = httpClientFactory;
             _logger = logger;
+            _apiService = apiService;
 
-        }
-
-        private async Task<HttpClient> GetAuthenticatedClient()
-        {
-            var token = Request.Cookies["jwt"];
-            var client = _httpClientFactory.CreateClient();
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            return client;
         }
         public async Task<IActionResult> Index()
         {
@@ -55,7 +49,7 @@ namespace Med.Controllers
             if (cart.Count == 0)
                 return View(cart);
 
-            var client = await GetAuthenticatedClient();
+                        var client = await _apiService.CreateAuthenticatedClient(HttpContext);
             var requestCart = cart.Select(c => new
             {
                 ProductID = c.ProductID,
@@ -63,7 +57,7 @@ namespace Med.Controllers
             }).ToList();
 
             var content = new StringContent(JsonSerializer.Serialize(requestCart), Encoding.UTF8, "application/json");
-            var response = await client.PostAsync($"{_apiBaseUrl}/api/cart/items", content);
+            var response = await client.PostAsync($"{_apiService.BaseUrl}/api/cart/items", content);
 
             if (!response.IsSuccessStatusCode)
             {
@@ -89,14 +83,14 @@ namespace Med.Controllers
                 return RedirectToAction("Catalog", "Home");
             }
 
-            var client = await GetAuthenticatedClient();
+                        var client = await _apiService.CreateAuthenticatedClient(HttpContext);
 
-            var checkResponse = await client.GetAsync($"{_apiBaseUrl}/api/cart/check-stock/{productId}/{quantity}");
+            var checkResponse = await client.GetAsync($"{_apiService.BaseUrl}/api/cart/check-stock/{productId}/{quantity}");
             if (!checkResponse.IsSuccessStatusCode)
             {
                 if (checkResponse.StatusCode == System.Net.HttpStatusCode.BadRequest)
                 {
-                    TempData["ErrorMessage"] = "Недостаточно товара на складе.";
+                    TempData["ErrorMessage"] = "Недостаточно товара для добавления в корзину.";
                     return RedirectToAction("Catalog", "Home");
                 }
                 if (checkResponse.StatusCode == System.Net.HttpStatusCode.NotFound)
@@ -126,7 +120,7 @@ namespace Med.Controllers
             {
 
                 var newQuantity = item.Quantity + quantity;
-                var secondCheck = await client.GetAsync($"{_apiBaseUrl}/api/cart/check-stock/{productId}/{newQuantity}");
+                var secondCheck = await client.GetAsync($"{_apiService.BaseUrl}/api/cart/check-stock/{productId}/{newQuantity}");
                 if (!secondCheck.IsSuccessStatusCode)
                 {
                     TempData["ErrorMessage"] = "Недостаточно товара на складе для указанного количества.";
